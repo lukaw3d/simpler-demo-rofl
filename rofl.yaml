@@ -1,7 +1,6 @@
-name: demo-rofl
+name: simpler-demo-rofl
 version: 0.1.1
-repository: https://github.com/oasisprotocol/demo-rofl
-author: Jernej Kos <jernej@kos.mx>
+repository: https://github.com/lukaw3d/simpler-demo-rofl
 license: Apache-2.0
 tee: tdx
 kind: container
@@ -18,30 +17,3 @@ artifacts:
   container:
     runtime: https://github.com/oasisprotocol/oasis-sdk/releases/download/rofl-containers%2Fv0.5.1/rofl-containers#9afa712b939528d758294bf49181466fc2066bbe507f92777ddc3bce8af6ee37
     compose: compose.yaml
-deployments:
-  test:
-    app_id: rofl1qp55evqls4qg6cjw5fnlv4al9ptc0fsakvxvd9uw
-    network: testnet
-    paratime: sapphire
-    admin: test_a
-    oci_repository: ghcr.io/kostko/demo-rofl:default
-    trust_root:
-      height: 24805610
-    policy:
-      quotes:
-        pcs:
-          tcb_validity_period: 30
-          min_tcb_evaluation_data_number: 18
-          tdx: {}
-      enclaves:
-        - id: WGVOMhMuutOQKw06DvEGd9W2xS24InYPRDpGwFlE3BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-        - id: 1Huo0dcAeddVBgvMziJ4Dwz4cSEgH241wz/N18KPH3UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-      endorsements:
-        - any: {}
-      fees: endorsing_node
-      max_expiration: 3
-    machines:
-      default:
-        provider: rofl_provider_testnet_a
-        offer: test
-        id: "0000000000000002"

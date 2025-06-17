@@ -5,9 +5,8 @@ services:
     image: ghcr.io/oasisprotocol/demo-rofl:latest@sha256:7d7530a845eaa8038e50e43ef2aa192a4c7243b8d6102a2626eeea2c71eefb70
     platform: linux/amd64
     environment:
-      # Address of the oracle contract deployed on Sapphire.
-      - CONTRACT_ADDRESS=1234845aaB7b6CD88c7fAd9E9E1cf07638805b20
-      # Ticker.
-      - TICKER=ROSEUSDT
+      # Address of the Echo contract deployed on Sapphire.
+      # https://explorer.oasis.io/testnet/sapphire/address/0x5d683b980615A7A60B3cFf3DFC338A9985278fF3
+      - CONTRACT_ADDRESS=0x5d683b980615A7A60B3cFf3DFC338A9985278fF3
     volumes:
       - /run/rofl-appd.sock:/run/rofl-appd.sock
