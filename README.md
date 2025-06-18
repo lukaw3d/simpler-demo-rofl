@@ -9,6 +9,18 @@ ROFL app runs.
 https://explorer.oasis.io/testnet/sapphire/address/0x5d683b980615A7A60B3cFf3DFC338A9985278fF3
 is Echo.sol - it allows anyone to post a message.
 
+Run:
+```sh
+oasis rofl create --network testnet
+echo -n "msg 1" | oasis rofl secret set MESSAGE -
+# message is stored in secrets, but then intentionally expose it
+# secret -> rofl app -> encrypted contract call -> unencrypted event emit
+oasis rofl update
+oasis rofl build
+oasis rofl deploy
+oasis rofl remove
+```
+
 ## Documentation
 
 See [the ROFL documentation] for more details about ROFL-specific features

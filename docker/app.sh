@@ -1,9 +1,11 @@
 #!/bin/sh
 
+# MESSAGE comes from: rofl.yaml secrets -> compose.yaml environment -> podman/docker
+# MESSAGE="ab"
+
 # Format calldata
-MESSAGE="ab dfg dfkogdfk ogk ortz ortzk otzki54 6ki54o0 6540o6 o05kg"
 # emitMessage("ab") should encode as 0x2ac0df26000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000026162000000000000000000000000000000000000000000000000000000000000
-MESSAGE="${MESSAGE:0:32}" # this bash abi encoding doesn't work correctly for long strings
+MESSAGE="${MESSAGE:0:32}" # Improvised abi encoding in bash below doesn't work correctly for long strings
 method="2ac0df26" # keccak256("emitMessage(string)")
 stringtype="0000000000000000000000000000000000000000000000000000000000000020"
 stringlen=$(printf "%064x" "$(echo -n "${MESSAGE}" | wc -c)")

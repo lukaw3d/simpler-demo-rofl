@@ -8,5 +8,6 @@ services:
       # Address of the Echo contract deployed on Sapphire.
       # https://explorer.oasis.io/testnet/sapphire/address/0x5d683b980615A7A60B3cFf3DFC338A9985278fF3
       - CONTRACT_ADDRESS=0x5d683b980615A7A60B3cFf3DFC338A9985278fF3
+      - MESSAGE=${MESSAGE}
     volumes:
       - /run/rofl-appd.sock:/run/rofl-appd.sock
