@@ -3,7 +3,7 @@
 This is a demo ROFL app that runs in TDX using Podman containers defined in a
 `compose.yaml` file.
 
-docker/app.sh posts a message to 0x5d683b980615A7A60B3cFf3DFC338A9985278fF3 when
+compose.yaml > command > deno posts a message to 0x5d683b980615A7A60B3cFf3DFC338A9985278fF3 when
 ROFL app runs.
 
 https://explorer.oasis.io/testnet/sapphire/address/0x5d683b980615A7A60B3cFf3DFC338A9985278fF3
@@ -11,11 +11,6 @@ is Echo.sol - it allows anyone to post a message.
 
 Do:
 ```sh
-# remove compose.yaml > services.echo.image
-docker compose build
-docker compose push
-# add compose.yaml > services.echo.image
-
 oasis rofl create --network testnet
 oasis rofl secret rm MESSAGE
 echo -n "msg 1" | oasis rofl secret set MESSAGE -
@@ -24,7 +19,7 @@ echo -n "msg 1" | oasis rofl secret set MESSAGE -
 oasis rofl build
 oasis rofl update
 oasis rofl deploy
-# Wait 5 min
+# Wait 2 minutes
 # See your message at https://explorer.oasis.io/testnet/sapphire/address/0x5d683b980615A7A60B3cFf3DFC338A9985278fF3/events#events
 oasis rofl remove
 # Get back staked tokens

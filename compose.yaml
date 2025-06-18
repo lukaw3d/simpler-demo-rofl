@@ -1,8 +1,42 @@
 services:
   echo:
-    build: ./docker
-    # See the 'docker' subdirectory for the content of this image.
-    image: docker.io/luka1oasisprotocol/simpler-demo-rofl:latest
+    image: docker.io/denoland/deno:alpine
+    command: |
+      sh -c "deno run --allow-all - <<'EOF'
+
+      import { encodeFunctionData, parseAbi } from 'npm:viem'
+
+      // MESSAGE comes from: rofl.yaml secrets -> compose.yaml environment -> podman/docker
+      const MESSAGE = Deno.env.get('MESSAGE') ?? 'No message found'
+      const CONTRACT_ADDRESS = Deno.env.get('CONTRACT_ADDRESS')
+
+      const calldata = encodeFunctionData({
+        abi: parseAbi(['function emitMessage(string memory message) public']),
+        functionName: 'emitMessage',
+        args: [MESSAGE]
+      })
+
+      console.log({calldata})
+
+      // Submit it to the Sapphire contract Echo.sol on testnet
+      await fetch('http://localhost/rofl/v1/tx/sign-submit', {
+        method: 'POST',
+        body: JSON.stringify({
+          'tx': {
+            'kind': 'eth',
+            'data': {
+              'gas_limit': 200000,
+              'to': CONTRACT_ADDRESS.replace('0x', ''),
+              'value': 0,
+              'data': calldata.replace('0x', '')
+            }
+          }
+        }),
+        client: Deno.createHttpClient({ proxy: { transport: 'unix', path: '/run/rofl-appd.sock' } }),
+      });
+
+      EOF
+      "
     platform: linux/amd64
     environment:
       # Address of the Echo contract deployed on Sapphire.
