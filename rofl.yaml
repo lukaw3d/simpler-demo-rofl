@@ -17,3 +17,33 @@ artifacts:
   container:
     runtime: https://github.com/oasisprotocol/oasis-sdk/releases/download/rofl-containers%2Fv0.5.1/rofl-containers#9afa712b939528d758294bf49181466fc2066bbe507f92777ddc3bce8af6ee37
     compose: compose.yaml
+deployments:
+  default:
+    app_id: rofl1qppl0fck8zfjh5hwj3h8q8rtm0xptu7ctgk2kylv
+    network: testnet
+    paratime: sapphire
+    admin: a
+    oci_repository: rofl.sh/6b4d7b64-ac1e-4604-b099-58b5b7e7a23d:1750209584
+    trust_root:
+      height: 27106029
+      hash: 8038208f953e9d47843d967fe975b127c5fdff6c4b112143cc806d99cbb3dbd1
+    policy:
+      quotes:
+        pcs:
+          tcb_validity_period: 30
+          min_tcb_evaluation_data_number: 18
+          tdx: {}
+      enclaves:
+        - id: qxlfEQroDmygYjsff4MwV1D7vRVvWVujZC4/BLdrf9UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        - id: vegwMaNHZrscIhilD+X2Xi34lFpIh4XkE5QmSjLAij0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+      endorsements:
+        - any: {}
+      fees: endorsing_node
+      max_expiration: 3
+    secrets:
+      - name: MESSAGE
+        value: pGJwa1ggl3OGJmQZwnt38LD0M8pylEWmSROVf+Gz/kh/qBY6uVRkbmFtZVdaGB0VhEnXECrnevpfA1Ti7QAuxeJoZ2Vub25jZU+ISZKNfim+AenTYpb9LBBldmFsdWVSDO8VccQtoXPE+krWfDWEMOSS
+    machines:
+      default:
+        provider: oasis1qp2ens0hsp7gh23wajxa4hpetkdek3swyyulyrmz
+        offer: playground_short
