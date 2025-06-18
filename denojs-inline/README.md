@@ -7,7 +7,7 @@ compose.yaml > command > deno posts a message to 0x5d683b980615A7A60B3cFf3DFC338
 ROFL app runs.
 
 https://explorer.oasis.io/testnet/sapphire/address/0x5d683b980615A7A60B3cFf3DFC338A9985278fF3
-is Echo.sol - it allows anyone to post a message.
+is Echo.sol - it allows anyone to post a message. So you don't need to deploy+verify it yourself.
 
 Do:
 ```sh
