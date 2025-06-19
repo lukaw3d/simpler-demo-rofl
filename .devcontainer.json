@@ -1,0 +1,7 @@
+// This file simplifies using github codespaces. You will need to create an oasis wallet inside codespace tho.
+{
+  "postCreateCommand": {
+    "deno": "npm install -g deno",
+    "oasis-cli": "curl -s https://api.github.com/repos/oasisprotocol/cli/releases/latest | grep browser_download_url | grep -o 'https://.*/oasis_cli.*linux_amd64.tar.gz' | wget -qi - && mkdir $HOME/.local/bin/oasis-cli && tar -xvzf oasis_cli_*_linux_amd64.tar.gz --strip-components 1 -C $HOME/.local/bin/oasis-cli && ln -s $HOME/.local/bin/oasis-cli/oasis $HOME/.local/bin/oasis && oasis wallet"
+  }
+}
