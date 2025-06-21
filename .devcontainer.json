@@ -1,5 +1,6 @@
 // This file simplifies using github codespaces. You will need to create an oasis wallet inside codespace tho.
 {
+  "image": "mcr.microsoft.com/devcontainers/universal",
   "postCreateCommand": {
     "building-deps": "sudo apt-get update && sudo apt-get install -y squashfs-tools cryptsetup-bin qemu-utils",
     "deno": "npm install -g deno",
