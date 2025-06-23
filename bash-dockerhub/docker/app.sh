@@ -14,6 +14,6 @@ data="${method}${stringtype}${stringlen}${stringval}"
 
 # Submit it to the Sapphire contract Echo.sol on testnet
 curl -s \
-	--json '{"tx": {"kind": "eth", "data": {"gas_limit": 200000, "to": "'${CONTRACT_ADDRESS#0x}'", "value": 0, "data": "'${data#0x}'"}}}' \
+	--json '{"encrypt": true, "tx": {"kind": "eth", "data": {"gas_limit": 200000, "to": "'${CONTRACT_ADDRESS#0x}'", "value": 0, "data": "'${data#0x}'"}}}' \
 	--unix-socket /run/rofl-appd.sock \
 		http://localhost/rofl/v1/tx/sign-submit >/dev/null

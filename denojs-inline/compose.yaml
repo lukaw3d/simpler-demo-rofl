@@ -22,6 +22,7 @@ services:
       await fetch('http://localhost/rofl/v1/tx/sign-submit', {
         method: 'POST',
         body: JSON.stringify({
+          'encrypt': true,
           'tx': {
             'kind': 'eth',
             'data': {
