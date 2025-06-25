@@ -1,0 +1,51 @@
+{
+  "name": "rofl1qppl0fck8zfjh5hwj3h8q8rtm0xptu7ctgk2kylv",
+  "id": "000000000000000000000000000000000000000000000000a6d1e3ebf60dff6c",
+  "version": {},
+  "components": [
+    {
+      "kind": "rofl",
+      "name": "rofl1qppl0fck8zfjh5hwj3h8q8rtm0xptu7ctgk2kylv",
+      "version": {
+        "minor": 1,
+        "patch": 1
+      },
+      "tdx": {
+        "firmware": "firmware.fd",
+        "kernel": "kernel.bin",
+        "extra_kernel_options": [
+          "console=ttyS0",
+          "oasis.stage2.roothash=8ef0b7fe8dbfe189d22ff3c70d57cba0d97afef68360654b0ca70b285e63d333",
+          "oasis.stage2.hash_offset=69386240",
+          "oasis.stage2.storage_mode=custom",
+          "oasis.stage2.storage_size=1048576",
+          "oasis.stage2.storage_offset=4194304",
+          "ROFL_APP_ID=rofl1qppl0fck8zfjh5hwj3h8q8rtm0xptu7ctgk2kylv",
+          "ROFL_CONSENSUS_TRUST_ROOT=pGRoYXNoeEA4MDM4MjA4Zjk1M2U5ZDQ3ODQzZDk2N2ZlOTc1YjEyN2M1ZmRmZjZjNGIxMTIxNDNjYzgwNmQ5OWNiYjNkYmQxZmhlaWdodBoBnZrtanJ1bnRpbWVfaWRYIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKbR4+v2Df9sbWNoYWluX2NvbnRleHR4QDBiOTFiOGU0ZTQ0YjIwMDNhN2M1ZTIzZGRhZGI1ZTE0ZWY1MzQ1YzBlYmNiM2RkY2FlMDdmYTJmMjQ0Y2FiNzY="
+        ],
+        "stage2_image": "stage2.img",
+        "stage2_format": "qcow2",
+        "stage2_persist": true,
+        "resources": {
+          "memory": 512,
+          "cpus": 1
+        }
+      },
+      "identity": [
+        {
+          "hypervisor": "qemu/v0",
+          "enclave": "qxlfEQroDmygYjsff4MwV1D7vRVvWVujZC4/BLdrf9UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        },
+        {
+          "hypervisor": "qemu/v1",
+          "enclave": "vegwMaNHZrscIhilD+X2Xi34lFpIh4XkE5QmSjLAij0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        }
+      ]
+    }
+  ],
+  "digests": {
+    "firmware.fd": "1e22cb55e813654a756f23ebeaf66dab4ebbcee8477f1947633c26ada5967de4",
+    "kernel.bin": "1d31cb040d786f72150742ecc0c28ce5566084150a5ef58300baf6980991a403",
+    "stage2.img": "985115db69cbe260a673cdf4186256424cc9d4a601d84c7414051b6c10fc8727"
+  }
+}
