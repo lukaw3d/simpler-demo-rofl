@@ -1,0 +1,477 @@
+{"level":"warn","module":"runtime","msg":"\u001b[2J\u001b[01;01H\u001b[=3h\u001b[2J\u001b[01;01H[    0.000000] tdx: Guest detected"}
+{"level":"warn","module":"runtime","msg":"[] Linux version 6.12.27-yocto-tiny (oe-user@oe-host) (x86_64-poky-linux-gcc (GCC) 13.3.0, GNU ld (GNU Binutils) 2.42.0.20240716) #1 SMP PREEMPT Tue May  6 14:20:34 UTC 2025"}
+{"level":"warn","module":"runtime","msg":"[] Command line: console=ttyS0 oasis.stage2.roothash=e4ab4ad55ae69c84e685cb3f0e0ebc26de85a33cf1403206c15203b8411222c0 oasis.stage2.hash_offset=69386240 oasis.stage2.storage_mode=custom oasis.stage2.storage_size=1048576 oasis.stage2.storage_offset=4194304 ROFL_APP_ID=rofl1qz0vzsa0vt9vy4ex9gq4457h43uu7kukhv9naf8f ROFL_CONSENSUS_TRUST_ROOT=pGRoYXNoeEAzMmJiNjgwMGY0MWMzMDhmMmE1Njk5ZGQxOTkyMTYwMzM3MmZiZjFhNTUwMDQ5MmRkOWQ1MGJiYjQ1OGIxYWE5ZmhlaWdodBoBoUGvanJ1bnRpbWVfaWRYIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKbR4+v2Df9sbWNoYWluX2NvbnRleHR4QDBiOTFiOGU0ZTQ0YjIwMDNhN2M1ZTIzZGRhZGI1ZTE0ZWY1MzQ1YzBlYmNiM2RkY2FlMDdmYTJmMjQ0Y2FiNzY="}
+{"level":"warn","module":"runtime","msg":"[] x86/split lock detection: #DB: warning on user-space bus_locks"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-provided physical RAM map:"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x0000000000000000-0x000000000080bfff] usable"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x000000000080c000-0x000000000080cfff] ACPI NVS"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x000000000080d000-0x0000000016672fff] usable"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x0000000016673000-0x0000000016673fff] ACPI data"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x0000000016674000-0x000000001668ffff] usable"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x0000000016690000-0x0000000016690fff] ACPI data"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x0000000016691000-0x0000000016692fff] usable"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x0000000016693000-0x0000000016693fff] ACPI data"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x0000000016694000-0x0000000016698fff] reserved"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x0000000016699000-0x00000000166b0fff] ACPI NVS"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x00000000166b1000-0x000000001673afff] reserved"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x000000001673b000-0x00000000177bafff] usable"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x00000000177bb000-0x0000000017812fff] reserved"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x0000000017813000-0x000000001781afff] ACPI data"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x000000001781b000-0x000000001781efff] ACPI NVS"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x000000001781f000-0x0000000018f7bfff] usable"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x0000000018f7c000-0x0000000018ffffff] reserved"}
+{"level":"warn","module":"runtime","msg":"[] BIOS-e820: [mem 0x00000000e0000000-0x00000000efffffff] reserved"}
+{"level":"warn","module":"runtime","msg":"[] NX (Execute Disable) protection: active"}
+{"level":"warn","module":"runtime","msg":"[] APIC: Static calls initialized"}
+{"level":"warn","module":"runtime","msg":"[] efi: EFI v2.7 by EDK II"}
+{"level":"warn","module":"runtime","msg":"[] efi: CCFinalLog=0x16699000 ACPI=0x1781a000 ACPI 2.0=0x1781a014 SMBIOS=0x177eb000 SMBIOS 3.0=0x16697000 MEMATTR=0x16798018 TPMEventLog=0x17814018"}
+{"level":"warn","module":"runtime","msg":"[] [Firmware Bug]: Failed to parse event in TPM Final Events Log"}
+{"level":"warn","module":"runtime","msg":"[] SMBIOS 3.0.0 present."}
+{"level":"warn","module":"runtime","msg":"[] DMI: QEMU Standard PC (Q35 + ICH9, 2009), BIOS unknown 02/02/2022"}
+{"level":"warn","module":"runtime","msg":"[] DMI: Memory slots populated: 1/1"}
+{"level":"warn","module":"runtime","msg":"[] Hypervisor detected: KVM"}
+{"level":"warn","module":"runtime","msg":"[] tsc: Detected 2200.000 MHz processor"}
+{"level":"warn","module":"runtime","msg":"[] last_pfn = 0x18f7c max_arch_pfn = 0x400000000"}
+{"level":"warn","module":"runtime","msg":"[] MTRR map: 0 entries (0 fixed + 0 variable; max 0), built from 0 variable MTRRs"}
+{"level":"warn","module":"runtime","msg":"[] MTRRs set to read-only"}
+{"level":"warn","module":"runtime","msg":"[] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT"}
+{"level":"warn","module":"runtime","msg":"[] x2apic: enabled by BIOS, switching to x2apic ops"}
+{"level":"warn","module":"runtime","msg":"[] software IO TLB: SWIOTLB bounce buffer size adjusted to 64MB"}
+{"level":"warn","module":"runtime","msg":"[] Using GB pages for direct mapping"}
+{"level":"warn","module":"runtime","msg":"[] Secure boot disabled"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Early table checksum verification disabled"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: RSDP 0x000000001781A014 000024 (v02 BOCHS )"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: XSDT 0x00000000178190E8 00004C (v01 BOCHS  BXPC     00000001      01000013)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: FACP 0x0000000017815000 0000F4 (v03 BOCHS  BXPC     00000001 BXPC 00000001)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: DSDT 0x0000000017816000 001FF9 (v01 BOCHS  BXPC     00000001 BXPC 00000001)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: FACS 0x000000001781D000 000040"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: CCEL 0x0000000017818000 000038 (v01 INTEL  EDK2     00000002      01000013)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: MCFG 0x0000000017813000 00003C (v01 BOCHS  BXPC     00000001 BXPC 00000001)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: WAET 0x0000000016673000 000028 (v01 BOCHS  BXPC     00000001 BXPC 00000001)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: APIC 0x0000000016693000 0000F6 (v03 BOCHS  BXPC     00000001 BXPC 00000001)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Reserving FACP table memory at [mem 0x17815000-0x178150f3]"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Reserving DSDT table memory at [mem 0x17816000-0x17817ff8]"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Reserving FACS table memory at [mem 0x1781d000-0x1781d03f]"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Reserving CCEL table memory at [mem 0x17818000-0x17818037]"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Reserving MCFG table memory at [mem 0x17813000-0x1781303b]"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Reserving WAET table memory at [mem 0x16673000-0x16673027]"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Reserving APIC table memory at [mem 0x16693000-0x166930f5]"}
+{"level":"warn","module":"runtime","msg":"[] APIC: Switched APIC routing to: cluster x2apic"}
+{"level":"warn","module":"runtime","msg":"[] Zone ranges:"}
+{"level":"warn","module":"runtime","msg":"[]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]"}
+{"level":"warn","module":"runtime","msg":"[]   DMA32    [mem 0x0000000001000000-0x0000000018f7bfff]"}
+{"level":"warn","module":"runtime","msg":"[]   Normal   empty"}
+{"level":"warn","module":"runtime","msg":"[] Movable zone start for each node"}
+{"level":"warn","module":"runtime","msg":"[] Early memory node ranges"}
+{"level":"warn","module":"runtime","msg":"[]   node   0: [mem 0x0000000000001000-0x000000000009ffff]"}
+{"level":"warn","module":"runtime","msg":"[]   node   0: [mem 0x0000000000100000-0x000000000080bfff]"}
+{"level":"warn","module":"runtime","msg":"[]   node   0: [mem 0x000000000080d000-0x0000000016672fff]"}
+{"level":"warn","module":"runtime","msg":"[]   node   0: [mem 0x0000000016674000-0x000000001668ffff]"}
+{"level":"warn","module":"runtime","msg":"[]   node   0: [mem 0x0000000016691000-0x0000000016692fff]"}
+{"level":"warn","module":"runtime","msg":"[]   node   0: [mem 0x000000001673b000-0x00000000177bafff]"}
+{"level":"warn","module":"runtime","msg":"[]   node   0: [mem 0x000000001781f000-0x0000000018f7bfff]"}
+{"level":"warn","module":"runtime","msg":"[] Initmem setup node 0 [mem 0x0000000000001000-0x0000000018f7bfff]"}
+{"level":"warn","module":"runtime","msg":"[] On node 0, zone DMA: 1 pages in unavailable ranges"}
+{"level":"warn","module":"runtime","msg":"[] On node 0, zone DMA: 96 pages in unavailable ranges"}
+{"level":"warn","module":"runtime","msg":"[] On node 0, zone DMA: 1 pages in unavailable ranges"}
+{"level":"warn","module":"runtime","msg":"[] On node 0, zone DMA32: 1 pages in unavailable ranges"}
+{"level":"warn","module":"runtime","msg":"[] On node 0, zone DMA32: 1 pages in unavailable ranges"}
+{"level":"warn","module":"runtime","msg":"[] On node 0, zone DMA32: 168 pages in unavailable ranges"}
+{"level":"warn","module":"runtime","msg":"[] On node 0, zone DMA32: 100 pages in unavailable ranges"}
+{"level":"warn","module":"runtime","msg":"[] On node 0, zone DMA32: 28804 pages in unavailable ranges"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PM-Timer IO Port: 0x608"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])"}
+{"level":"warn","module":"runtime","msg":"[] IOAPIC[0]: apic_id 0, version 32, address 0xfec00000, GSI 0-23"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 1 global_irq 1 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 2 global_irq 2 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 3 global_irq 3 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 4 global_irq 4 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 6 global_irq 6 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 7 global_irq 7 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 8 global_irq 8 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 12 global_irq 12 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 13 global_irq 13 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 14 global_irq 14 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: INT_SRC_OVR (bus 0 bus_irq 15 global_irq 15 high edge)"}
+{"level":"warn","module":"runtime","msg":"[] APIC: wakeup_secondary_cpu_64() replaced with acpi_wakeup_cpu()"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Using ACPI (MADT) for SMP configuration information"}
+{"level":"warn","module":"runtime","msg":"[] TSC deadline timer available"}
+{"level":"warn","module":"runtime","msg":"[] CPU topo: Max. logical packages:   1"}
+{"level":"warn","module":"runtime","msg":"[] CPU topo: Max. logical dies:       1"}
+{"level":"warn","module":"runtime","msg":"[] CPU topo: Max. dies per package:   1"}
+{"level":"warn","module":"runtime","msg":"[] CPU topo: Max. threads per core:   1"}
+{"level":"warn","module":"runtime","msg":"[] CPU topo: Num. cores per package:     1"}
+{"level":"warn","module":"runtime","msg":"[] CPU topo: Num. threads per package:   1"}
+{"level":"warn","module":"runtime","msg":"[] CPU topo: Allowing 1 present CPUs plus 0 hotplug CPUs"}
+{"level":"warn","module":"runtime","msg":"[] [mem 0x19000000-0xdfffffff] available for PCI devices"}
+{"level":"warn","module":"runtime","msg":"[] Booting paravirtualized kernel on KVM"}
+{"level":"warn","module":"runtime","msg":"[] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns"}
+{"level":"warn","module":"runtime","msg":"[] setup_percpu: NR_CPUS:64 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1"}
+{"level":"warn","module":"runtime","msg":"[] percpu: Embedded 49 pages/cpu s160088 r8192 d32424 u2097152"}
+{"level":"warn","module":"runtime","msg":"[] Kernel command line: console=ttyS0 oasis.stage2.roothash=e4ab4ad55ae69c84e685cb3f0e0ebc26de85a33cf1403206c15203b8411222c0 oasis.stage2.hash_offset=69386240 oasis.stage2.storage_mode=custom oasis.stage2.storage_size=1048576 oasis.stage2.storage_offset=4194304 ROFL_APP_ID=rofl1qz0vzsa0vt9vy4ex9gq4457h43uu7kukhv9naf8f ROFL_CONSENSUS_TRUST_ROOT=pGRoYXNoeEAzMmJiNjgwMGY0MWMzMDhmMmE1Njk5ZGQxOTkyMTYwMzM3MmZiZjFhNTUwMDQ5MmRkOWQ1MGJiYjQ1OGIxYWE5ZmhlaWdodBoBoUGvanJ1bnRpbWVfaWRYIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKbR4+v2Df9sbWNoYWluX2NvbnRleHR4QDBiOTFiOGU0ZTQ0YjIwMDNhN2M1ZTIzZGRhZGI1ZTE0ZWY1MzQ1YzBlYmNiM2RkY2FlMDdmYTJmMjQ0Y2FiNzY="}
+{"level":"warn","module":"runtime","msg":"[] Unknown kernel command line parameters \"ROFL_APP_ID=rofl1qz0vzsa0vt9vy4ex9gq4457h43uu7kukhv9naf8f ROFL_CONSENSUS_TRUST_ROOT=pGRoYXNoeEAzMmJiNjgwMGY0MWMzMDhmMmE1Njk5ZGQxOTkyMTYwMzM3MmZiZjFhNTUwMDQ5MmRkOWQ1MGJiYjQ1OGIxYWE5ZmhlaWdodBoBoUGvanJ1bnRpbWVfaWRYIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKbR4+v2Df9sbWNoYWluX2NvbnRleHR4QDBiOTFiOGU0ZTQ0YjIwMDNhN2M1ZTIzZGRhZGI1ZTE0ZWY1MzQ1YzBlYmNiM2RkY2FlMDdmYTJmMjQ0Y2FiNzY=\", will be passed to user space."}
+{"level":"warn","module":"runtime","msg":"[] random: crng init done"}
+{"level":"warn","module":"runtime","msg":"[] Dentry cache hash table entries: 65536 (order: 7, 524288 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] Inode-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] Built 1 zonelists, mobility grouping on.  Total pages: 101900"}
+{"level":"warn","module":"runtime","msg":"[] mem auto-init: stack:all(zero), heap alloc:off, heap free:off"}
+{"level":"warn","module":"runtime","msg":"[] software IO TLB: area num 1."}
+{"level":"warn","module":"runtime","msg":"[] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1"}
+{"level":"warn","module":"runtime","msg":"[] rcu: Preemptible hierarchical RCU implementation."}
+{"level":"warn","module":"runtime","msg":"[] rcu: \tRCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=1."}
+{"level":"warn","module":"runtime","msg":"[] \tTrampoline variant of Tasks RCU enabled."}
+{"level":"warn","module":"runtime","msg":"[] \tTracing variant of Tasks RCU enabled."}
+{"level":"warn","module":"runtime","msg":"[] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies."}
+{"level":"warn","module":"runtime","msg":"[] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1"}
+{"level":"warn","module":"runtime","msg":"[] RCU Tasks: Setting shift to 0 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=1."}
+{"level":"warn","module":"runtime","msg":"[] RCU Tasks Trace: Setting shift to 0 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=1."}
+{"level":"warn","module":"runtime","msg":"[] NR_IRQS: 4352, nr_irqs: 256, preallocated irqs: 16"}
+{"level":"warn","module":"runtime","msg":"[] rcu: srcu_init: Setting srcu_struct sizes based on contention."}
+{"level":"warn","module":"runtime","msg":"[] Console: colour dummy device 80x25"}
+{"level":"warn","module":"runtime","msg":"[] printk: legacy console [ttyS0] enabled"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Core revision 20240827"}
+{"level":"warn","module":"runtime","msg":"[] ACPI BIOS Warning (bug): Incorrect checksum in table [APIC] - 0x58, should be 0xFFFFFFB8 (20240827/utcksum-58)"}
+{"level":"warn","module":"runtime","msg":"[] APIC: Switch to symmetric I/O mode setup"}
+{"level":"warn","module":"runtime","msg":"[] APIC: Switched APIC routing to: physical x2apic"}
+{"level":"warn","module":"runtime","msg":"[] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1"}
+{"level":"warn","module":"runtime","msg":"[] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x1fb633008a4, max_idle_ns: 440795292230 ns"}
+{"level":"warn","module":"runtime","msg":"[] Calibrating delay loop (skipped), value calculated using timer frequency.. 4400.00 BogoMIPS (lpj=2200000)"}
+{"level":"warn","module":"runtime","msg":"[] x86/cpu: User Mode Instruction Prevention (UMIP) activated"}
+{"level":"warn","module":"runtime","msg":"[] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0"}
+{"level":"warn","module":"runtime","msg":"[] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0"}
+{"level":"warn","module":"runtime","msg":"[] process: using TDX aware idle routine"}
+{"level":"warn","module":"runtime","msg":"[] Spectre V1 : Vulnerable: __user pointer sanitization and usercopy barriers only; no swapgs barriers"}
+{"level":"warn","module":"runtime","msg":"[] Spectre V2 : User space: Vulnerable"}
+{"level":"warn","module":"runtime","msg":"[] Speculative Store Bypass: Vulnerable"}
+{"level":"warn","module":"runtime","msg":"[] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'"}
+{"level":"warn","module":"runtime","msg":"[] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'"}
+{"level":"warn","module":"runtime","msg":"[] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'"}
+{"level":"warn","module":"runtime","msg":"[] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256"}
+{"level":"warn","module":"runtime","msg":"[] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format."}
+{"level":"warn","module":"runtime","msg":"[] Freeing SMP alternatives memory: 28K"}
+{"level":"warn","module":"runtime","msg":"[] Memory Encryption Features active: Intel TDX"}
+{"level":"warn","module":"runtime","msg":"[] pid_max: default: 32768 minimum: 301"}
+{"level":"warn","module":"runtime","msg":"[] Mount-cache hash table entries: 1024 (order: 1, 8192 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] Mountpoint-cache hash table entries: 1024 (order: 1, 8192 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] smpboot: CPU0: Intel 06/af (family: 0x6, model: 0xaf, stepping: 0x3)"}
+{"level":"warn","module":"runtime","msg":"[] Performance Events: unsupported p6 CPU model 175 no PMU driver, software events only."}
+{"level":"warn","module":"runtime","msg":"[] signal: max sigframe size: 1776"}
+{"level":"warn","module":"runtime","msg":"[] rcu: Hierarchical SRCU implementation."}
+{"level":"warn","module":"runtime","msg":"[] rcu: \tMax phase no-delay instances is 400."}
+{"level":"warn","module":"runtime","msg":"[] smp: Bringing up secondary CPUs ..."}
+{"level":"warn","module":"runtime","msg":"[] smpboot: Parallel CPU startup disabled by the platform"}
+{"level":"warn","module":"runtime","msg":"[] smp: Brought up 1 node, 1 CPU"}
+{"level":"warn","module":"runtime","msg":"[] smpboot: Total of 1 processors activated (4400.00 BogoMIPS)"}
+{"level":"warn","module":"runtime","msg":"[] Memory: 290732K/407600K available (12288K kernel code, 970K rwdata, 4220K rodata, 17172K init, 2224K bss, 115064K reserved, 0K cma-reserved)"}
+{"level":"warn","module":"runtime","msg":"[] devtmpfs: initialized"}
+{"level":"warn","module":"runtime","msg":"[] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns"}
+{"level":"warn","module":"runtime","msg":"[] futex hash table entries: 256 (order: 2, 16384 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] pinctrl core: initialized pinctrl subsystem"}
+{"level":"warn","module":"runtime","msg":"[] NET: Registered PF_NETLINK/PF_ROUTE protocol family"}
+{"level":"warn","module":"runtime","msg":"[] thermal_sys: Registered thermal governor 'step_wise'"}
+{"level":"warn","module":"runtime","msg":"[] cpuidle: using governor menu"}
+{"level":"warn","module":"runtime","msg":"[] PCI: Using configuration type 1 for base access"}
+{"level":"warn","module":"runtime","msg":"[] cryptd: max_cpu_qlen set to 1000"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Added _OSI(Module Device)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Added _OSI(Processor Device)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Added _OSI(3.0 _SCP Extensions)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Added _OSI(Processor Aggregator Device)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: 1 ACPI AML tables successfully acquired and loaded"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Interpreter enabled"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PM: (supports S0 S5)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Using IOAPIC for interrupt routing"}
+{"level":"warn","module":"runtime","msg":"[] PCI: Using host bridge windows from ACPI; if necessary, use \"pci=nocrs\" and report a bug"}
+{"level":"warn","module":"runtime","msg":"[] PCI: Using E820 reservations for host bridge windows"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: Enabled 2 GPEs in block 00 to 3F"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])"}
+{"level":"warn","module":"runtime","msg":"[] acpi PNP0A08:00: _OSC: OS supports [ASPM ClockPM Segments MSI HPX-Type3]"}
+{"level":"warn","module":"runtime","msg":"[] acpi PNP0A08:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]"}
+{"level":"warn","module":"runtime","msg":"[] PCI host bridge to bus 0000:00"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: root bus resource [mem 0x19000000-0xdfffffff window]"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfebfffff window]"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: root bus resource [mem 0x380000000000-0x3807ffffffff window]"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: root bus resource [bus 00-ff]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:00.0: [8086:29c0] type 00 class 0x060000 conventional PCI endpoint"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:01.0: [1af4:1043] type 00 class 0x078000 conventional PCI endpoint"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:01.0: BAR 1 [mem 0x80004000-0x80004fff]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:01.0: BAR 4 [mem 0x380000000000-0x380000003fff 64bit pref]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:02.0: [1af4:1053] type 00 class 0x078000 conventional PCI endpoint"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:02.0: BAR 1 [mem 0x80003000-0x80003fff]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:02.0: BAR 4 [mem 0x380000004000-0x380000007fff 64bit pref]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:03.0: [1af4:1042] type 00 class 0x010000 conventional PCI endpoint"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:03.0: BAR 1 [mem 0x80002000-0x80002fff]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:03.0: BAR 4 [mem 0x380000008000-0x38000000bfff 64bit pref]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:04.0: [1af4:1041] type 00 class 0x020000 conventional PCI endpoint"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:04.0: BAR 1 [mem 0x80001000-0x80001fff]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:04.0: BAR 4 [mem 0x38000000c000-0x38000000ffff 64bit pref]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:04.0: ROM [mem 0x00000000-0x0007ffff pref]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:1f.0: [8086:2918] type 00 class 0x060100 conventional PCI endpoint"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:1f.0: quirk: [io  0x0600-0x067f] claimed by ICH6 ACPI/GPIO/TCO"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:1f.2: [8086:2922] type 00 class 0x010601 conventional PCI endpoint"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:1f.2: BAR 4 [io  0x6040-0x605f]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:1f.2: BAR 5 [mem 0x80000000-0x80000fff]"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:1f.3: [8086:2930] type 00 class 0x0c0500 conventional PCI endpoint"}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:1f.3: BAR 4 [io  0x6000-0x603f]"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link LNKA configured for IRQ 10"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link LNKB configured for IRQ 10"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link LNKC configured for IRQ 11"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link LNKD configured for IRQ 11"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link LNKE configured for IRQ 10"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link LNKF configured for IRQ 10"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link LNKG configured for IRQ 11"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link LNKH configured for IRQ 11"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link GSIA configured for IRQ 16"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link GSIB configured for IRQ 17"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link GSIC configured for IRQ 18"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link GSID configured for IRQ 19"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link GSIE configured for IRQ 20"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link GSIF configured for IRQ 21"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link GSIG configured for IRQ 22"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: PCI: Interrupt link GSIH configured for IRQ 23"}
+{"level":"warn","module":"runtime","msg":"[] iommu: Default domain type: Translated"}
+{"level":"warn","module":"runtime","msg":"[] iommu: DMA domain TLB invalidation policy: lazy mode"}
+{"level":"warn","module":"runtime","msg":"[] SCSI subsystem initialized"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: bus type USB registered"}
+{"level":"warn","module":"runtime","msg":"[] usbcore: registered new interface driver usbfs"}
+{"level":"warn","module":"runtime","msg":"[] usbcore: registered new interface driver hub"}
+{"level":"warn","module":"runtime","msg":"[] usbcore: registered new device driver usb"}
+{"level":"warn","module":"runtime","msg":"[] efivars: Registered efivars operations"}
+{"level":"warn","module":"runtime","msg":"[] Bluetooth: Core ver 2.22"}
+{"level":"warn","module":"runtime","msg":"[] NET: Registered PF_BLUETOOTH protocol family"}
+{"level":"warn","module":"runtime","msg":"[] Bluetooth: HCI device and connection manager initialized"}
+{"level":"warn","module":"runtime","msg":"[] Bluetooth: HCI socket layer initialized"}
+{"level":"warn","module":"runtime","msg":"[] Bluetooth: L2CAP socket layer initialized"}
+{"level":"warn","module":"runtime","msg":"[] Bluetooth: SCO socket layer initialized"}
+{"level":"warn","module":"runtime","msg":"[] PCI: Using ACPI for IRQ routing"}
+{"level":"warn","module":"runtime","msg":"[] vgaarb: loaded"}
+{"level":"warn","module":"runtime","msg":"[] clocksource: Switched to clocksource tsc-early"}
+{"level":"warn","module":"runtime","msg":"[] pnp: PnP ACPI init"}
+{"level":"warn","module":"runtime","msg":"[] system 00:04: [mem 0xe0000000-0xefffffff window] has been reserved"}
+{"level":"warn","module":"runtime","msg":"[] pnp: PnP ACPI: found 5 devices"}
+{"level":"warn","module":"runtime","msg":"[] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns"}
+{"level":"warn","module":"runtime","msg":"[] NET: Registered PF_INET protocol family"}
+{"level":"warn","module":"runtime","msg":"[] IP idents hash table entries: 8192 (order: 4, 65536 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] TCP established hash table entries: 4096 (order: 3, 32768 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] TCP bind hash table entries: 4096 (order: 5, 131072 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] TCP: Hash tables configured (established 4096 bind 4096)"}
+{"level":"warn","module":"runtime","msg":"[] UDP hash table entries: 256 (order: 1, 8192 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes, linear)"}
+{"level":"warn","module":"runtime","msg":"[] NET: Registered PF_UNIX/PF_LOCAL protocol family"}
+{"level":"warn","module":"runtime","msg":"[] RPC: Registered named UNIX socket transport module."}
+{"level":"warn","module":"runtime","msg":"[] RPC: Registered udp transport module."}
+{"level":"warn","module":"runtime","msg":"[] RPC: Registered tcp transport module."}
+{"level":"warn","module":"runtime","msg":"[] RPC: Registered tcp-with-tls transport module."}
+{"level":"warn","module":"runtime","msg":"[] RPC: Registered tcp NFSv4.1 backchannel transport module."}
+{"level":"warn","module":"runtime","msg":"[] pci 0000:00:04.0: ROM [mem 0x19000000-0x1907ffff pref]: assigned"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: resource 7 [mem 0x19000000-0xdfffffff window]"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: resource 8 [mem 0xf0000000-0xfebfffff window]"}
+{"level":"warn","module":"runtime","msg":"[] pci_bus 0000:00: resource 9 [mem 0x380000000000-0x3807ffffffff window]"}
+{"level":"warn","module":"runtime","msg":"[] PCI: CLS 0 bytes, default 64"}
+{"level":"warn","module":"runtime","msg":"[] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)"}
+{"level":"warn","module":"runtime","msg":"[] software IO TLB: mapped [mem 0x0000000010200000-0x0000000014200000] (64MB)"}
+{"level":"warn","module":"runtime","msg":"[] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x1fb633008a4, max_idle_ns: 440795292230 ns"}
+{"level":"warn","module":"runtime","msg":"[] clocksource: Switched to clocksource tsc"}
+{"level":"warn","module":"runtime","msg":"[] Initialise system trusted keyrings"}
+{"level":"warn","module":"runtime","msg":"[] workingset: timestamp_bits=46 max_order=17 bucket_order=0"}
+{"level":"warn","module":"runtime","msg":"[] squashfs: version 4.0 (2009/01/31) Phillip Lougher"}
+{"level":"warn","module":"runtime","msg":"[] NFS: Registering the id_resolver key type"}
+{"level":"warn","module":"runtime","msg":"[] Key type id_resolver registered"}
+{"level":"warn","module":"runtime","msg":"[] Key type id_legacy registered"}
+{"level":"warn","module":"runtime","msg":"[] fuse: init (API version 7.41)"}
+{"level":"warn","module":"runtime","msg":"[] xor: automatically using best checksumming function   avx"}
+{"level":"warn","module":"runtime","msg":"[] Key type asymmetric registered"}
+{"level":"warn","module":"runtime","msg":"[] Asymmetric key parser 'x509' registered"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: \\_SB_.GSIF: Enabled at IRQ 21"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: \\_SB_.GSIG: Enabled at IRQ 22"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: \\_SB_.GSIH: Enabled at IRQ 23"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: \\_SB_.GSIE: Enabled at IRQ 20"}
+{"level":"warn","module":"runtime","msg":"[] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled"}
+{"level":"warn","module":"runtime","msg":"[] 00:02: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A"}
+{"level":"warn","module":"runtime","msg":"[] software IO TLB: Memory encryption is active and system is using DMA bounce buffers"}
+{"level":"warn","module":"runtime","msg":"[] Linux agpgart interface v0.103"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: bus type drm_connector registered"}
+{"level":"warn","module":"runtime","msg":"[] brd: module loaded"}
+{"level":"warn","module":"runtime","msg":"[] virtio_blk virtio2: 1/0/0 default/read/poll queues"}
+{"level":"warn","module":"runtime","msg":"[] virtio_blk virtio2: [vda] 5242880 512-byte logical blocks (2.68 GB/2.50 GiB)"}
+{"level":"warn","module":"runtime","msg":"[] ACPI: \\_SB_.GSIA: Enabled at IRQ 16"}
+{"level":"warn","module":"runtime","msg":"[] ahci 0000:00:1f.2: AHCI vers 0001.0000, 32 command slots, 1.5 Gbps, SATA mode"}
+{"level":"warn","module":"runtime","msg":"[] ahci 0000:00:1f.2: 6/6 ports implemented (port mask 0x3f)"}
+{"level":"warn","module":"runtime","msg":"[] ahci 0000:00:1f.2: flags: 64bit ncq only"}
+{"level":"warn","module":"runtime","msg":"[] scsi host0: ahci"}
+{"level":"warn","module":"runtime","msg":"[] scsi host1: ahci"}
+{"level":"warn","module":"runtime","msg":"[] scsi host2: ahci"}
+{"level":"warn","module":"runtime","msg":"[] scsi host3: ahci"}
+{"level":"warn","module":"runtime","msg":"[] scsi host4: ahci"}
+{"level":"warn","module":"runtime","msg":"[] scsi host5: ahci"}
+{"level":"warn","module":"runtime","msg":"[] ata1: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000100 irq 28 lpm-pol 0"}
+{"level":"warn","module":"runtime","msg":"[] ata2: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000180 irq 28 lpm-pol 0"}
+{"level":"warn","module":"runtime","msg":"[] ata3: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000200 irq 28 lpm-pol 0"}
+{"level":"warn","module":"runtime","msg":"[] ata4: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000280 irq 28 lpm-pol 0"}
+{"level":"warn","module":"runtime","msg":"[] ata5: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000300 irq 28 lpm-pol 0"}
+{"level":"warn","module":"runtime","msg":"[] ata6: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000380 irq 28 lpm-pol 0"}
+{"level":"warn","module":"runtime","msg":"[] tun: Universal TUN/TAP device driver, 1.6"}
+{"level":"warn","module":"runtime","msg":"[] e100: Intel(R) PRO/100 Network Driver"}
+{"level":"warn","module":"runtime","msg":"[] e100: Copyright(c) 1999-2006 Intel Corporation"}
+{"level":"warn","module":"runtime","msg":"[] e1000: Intel(R) PRO/1000 Network Driver"}
+{"level":"warn","module":"runtime","msg":"[] e1000: Copyright (c) 1999-2006 Intel Corporation."}
+{"level":"warn","module":"runtime","msg":"[] e1000e: Intel(R) PRO/1000 Network Driver"}
+{"level":"warn","module":"runtime","msg":"[] e1000e: Copyright(c) 1999 - 2015 Intel Corporation."}
+{"level":"warn","module":"runtime","msg":"[] igb: Intel(R) Gigabit Ethernet Network Driver"}
+{"level":"warn","module":"runtime","msg":"[] igb: Copyright (c) 2007-2014 Intel Corporation."}
+{"level":"warn","module":"runtime","msg":"[] usbcore: registered new interface driver usbserial_generic"}
+{"level":"warn","module":"runtime","msg":"[] usbserial: USB Serial support registered for generic"}
+{"level":"warn","module":"runtime","msg":"[] usbcore: registered new interface driver ftdi_sio"}
+{"level":"warn","module":"runtime","msg":"[] usbserial: USB Serial support registered for FTDI USB Serial Device"}
+{"level":"warn","module":"runtime","msg":"[] usbcore: registered new interface driver pl2303"}
+{"level":"warn","module":"runtime","msg":"[] usbserial: USB Serial support registered for pl2303"}
+{"level":"warn","module":"runtime","msg":"[] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12"}
+{"level":"warn","module":"runtime","msg":"[] serio: i8042 KBD port at 0x60,0x64 irq 1"}
+{"level":"warn","module":"runtime","msg":"[] serio: i8042 AUX port at 0x60,0x64 irq 12"}
+{"level":"warn","module":"runtime","msg":"[] mousedev: PS/2 mouse device common for all mice"}
+{"level":"warn","module":"runtime","msg":"[] input: AT Raw Set 2 keyboard as /devices/platform/i8042/serio0/input/input0"}
+{"level":"warn","module":"runtime","msg":"[] rtc_cmos 00:03: RTC can wake from S4"}
+{"level":"warn","module":"runtime","msg":"[] rtc_cmos 00:03: registered as rtc0"}
+{"level":"warn","module":"runtime","msg":"[] rtc_cmos 00:03: alarms up to one day, y3k, 242 bytes nvram"}
+{"level":"warn","module":"runtime","msg":"[] i801_smbus 0000:00:1f.3: Enabling SMBus device"}
+{"level":"warn","module":"runtime","msg":"[] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@lists.linux.dev"}
+{"level":"warn","module":"runtime","msg":"[] i801_smbus 0000:00:1f.3: SMBus using PCI interrupt"}
+{"level":"warn","module":"runtime","msg":"[] intel_pstate: CPU model not supported"}
+{"level":"warn","module":"runtime","msg":"[] i2c i2c-0: Memory type 0x07 not supported yet, not instantiating SPD"}
+{"level":"warn","module":"runtime","msg":"[] sdhci: Secure Digital Host Controller Interface driver"}
+{"level":"warn","module":"runtime","msg":"[] sdhci: Copyright(c) Pierre Ossman"}
+{"level":"warn","module":"runtime","msg":"[] sdhci-pltfm: SDHCI platform and OF driver helper"}
+{"level":"warn","module":"runtime","msg":"[] usbcore: registered new interface driver usbhid"}
+{"level":"warn","module":"runtime","msg":"[] usbhid: USB HID core driver"}
+{"level":"warn","module":"runtime","msg":"[] NET: Registered PF_INET6 protocol family"}
+{"level":"warn","module":"runtime","msg":"[] Segment Routing with IPv6"}
+{"level":"warn","module":"runtime","msg":"[] In-situ OAM (IOAM) with IPv6"}
+{"level":"warn","module":"runtime","msg":"[] NET: Registered PF_PACKET protocol family"}
+{"level":"warn","module":"runtime","msg":"[] Bridge firewalling registered"}
+{"level":"warn","module":"runtime","msg":"[] Key type dns_resolver registered"}
+{"level":"warn","module":"runtime","msg":"[] NET: Registered PF_VSOCK protocol family"}
+{"level":"warn","module":"runtime","msg":"[] IPI shorthand broadcast: enabled"}
+{"level":"warn","module":"runtime","msg":"[] AES CTR mode by8 optimization enabled"}
+{"level":"warn","module":"runtime","msg":"[] sched_clock: Marking stable (839579586, 544520809)->(1951542843, -567442448)"}
+{"level":"warn","module":"runtime","msg":"[] Loading compiled-in X.509 certificates"}
+{"level":"warn","module":"runtime","msg":"[] printk: legacy console [netcon0] enabled"}
+{"level":"warn","module":"runtime","msg":"[] ata6: SATA link down (SStatus 0 SControl 300)"}
+{"level":"warn","module":"runtime","msg":"[] ata5: SATA link down (SStatus 0 SControl 300)"}
+{"level":"warn","module":"runtime","msg":"[] netconsole: network logging started"}
+{"level":"warn","module":"runtime","msg":"[] ata4: SATA link down (SStatus 0 SControl 300)"}
+{"level":"warn","module":"runtime","msg":"[] clk: Disabling unused clocks"}
+{"level":"warn","module":"runtime","msg":"[] ata3: SATA link down (SStatus 0 SControl 300)"}
+{"level":"warn","module":"runtime","msg":"[] ata1: SATA link down (SStatus 0 SControl 300)"}
+{"level":"warn","module":"runtime","msg":"[] ata2: SATA link down (SStatus 0 SControl 300)"}
+{"level":"warn","module":"runtime","msg":"[] Freeing unused kernel image (initmem) memory: 17172K"}
+{"level":"warn","module":"runtime","msg":"[] Write protecting the kernel read-only data: 18432k"}
+{"level":"warn","module":"runtime","msg":"[] Freeing unused kernel image (rodata/data gap) memory: 1924K"}
+{"level":"warn","module":"runtime","msg":"[] Run /init as init process"}
+{"level":"warn","module":"runtime","msg":"[] device-mapper: verity: sha256 using shash \"sha256-ni\""}
+{"level":"warn","module":"runtime","msg":"[] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input2"}
+{"level":"info","module":"runtime","msg":"Runtime is starting"}
+{"level":"info","module":"runtime/tdx","msg":"Mounting required filesystems"}
+{"level":"info","module":"runtime/tdx","msg":"Setting up signal handlers"}
+{"level":"info","module":"runtime/tdx","msg":"Early initialization completed"}
+{"level":"info","module":"runtime","msg":"Establishing connection with the worker host"}
+{"level":"info","module":"runtime/protocol","msg":"Starting protocol writer thread"}
+{"level":"info","module":"runtime/protocol","msg":"Starting protocol reader thread"}
+{"consensus_backend":"tendermint","consensus_chain_context":"0b91b8e4e44b2003a7c5e23ddadb5e14ef5345c0ebcb3ddcae07fa2f244cab76","consensus_protocol_version":"Version { major: 7, minor: 0, patch: 0 }","level":"info","local_config":"{}","module":"runtime/protocol","msg":"Received host environment information"}
+{"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Starting consensus verifier"}
+{"level":"info","module":"runtime/dispatcher","msg":"Starting the runtime dispatcher"}
+{"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Loading trusted state"}
+{"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Checking chain context change"}
+{"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Consensus chain context hasn't changed"}
+{"app_id":"rofl1qz0vzsa0vt9vy4ex9gq4457h43uu7kukhv9naf8f","level":"info","module":"runtime/modules/rofl/app","msg":"starting processor"}
+{"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Consensus verifier initialized","trust_root_chain_context":"\"0b91b8e4e44b2003a7c5e23ddadb5e14ef5345c0ebcb3ddcae07fa2f244cab76\"","trust_root_hash":"\"32bb6800f41c308f2a5699dd19921603372fbf1a5500492dd9d50bbb458b1aa9\"","trust_root_height":27345327,"trust_root_runtime_id":"000000000000000000000000000000000000000000000000a6d1e3ebf60dff6c"}
+{"level":"info","module":"runtime/attestation","msg":"Initializing the runtime key report"}
+{"latest_height":27345355,"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Consensus verifier synced"}
+{"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Verifying state freshness using prove freshness transaction"}
+{"err":"BadResponse","level":"error","module":"runtime/modules/rofl/app","msg":"failed to register for notifications"}
+{"level":"info","module":"runtime/modules/rofl/app","msg":"entering processor loop"}
+{"level":"info","module":"runtime/modules/rofl/app/watchdog","msg":"starting watchdog task"}
+{"level":"info","module":"runtime/modules/rofl/app/registration","msg":"starting registration task"}
+{"level":"info","module":"runtime/modules/rofl/app/notifier","msg":"starting notifier task"}
+{"level":"info","module":"runtime/attestation","msg":"Configuring quote policy"}
+{"level":"info","module":"runtime/attestation","msg":"Configuring quote for the runtime attestation key binding"}
+{"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"State freshness successfully verified"}
+{"level":"info","module":"runtime/attestation","msg":"Updating endorsed TEE capability"}
+{"epoch":45559,"last_registration_epoch":null,"level":"info","module":"runtime/modules/rofl/app/registration","msg":"refreshing registration"}
+{"level":"info","module":"runtime/modules/rofl/app/registration","msg":"refreshed registration","result":"Simple(NullValue)"}
+{"level":"info","module":"runtime/modules/rofl/app","msg":"initial registration completed"}
+{"level":"info","module":"runtime/modules/rofl/app","msg":"starting application"}
+{"level":"info","module":"runtime/modules/rofl/app","msg":"performing app-specific post-registration initialization"}
+{"level":"info","module":"runtime/appd/services/kms","msg":"starting KMS service"}
+{"level":"info","module":"runtime/appd/services/kms","msg":"attempting to obtain the root key for our application"}
+{"level":"info","module":"runtime/appd/services/kms","msg":"KMS service initialized"}
+{"level":"info","module":"runtime/post_registration_init","msg":"initializing stage 2 storage"}
+{"level":"info","module":"runtime/global","msg":"Device /dev/mapper/part-storage is not a valid LUKS device."}
+{"level":"warn","module":"runtime","msg":"Wiping device to initialize integrity checksum."}
+{"level":"warn","module":"runtime","msg":"You can interrupt this by pressing CTRL+c (rest of not wiped device will contain invalid checksum)."}
+{"level":"warn","module":"runtime","msg":"[] alg: No test for authenc(hmac(sha256),xts(aes)) (authenc(hmac(sha256-ni),xts-aes-vaes-avx2))"}
+{"level":"warn","module":"runtime","msg":"\u001b[2K\rProgress:  33.5%, ETA 00m00s,  155 MiB written, speed 308.3 MiB/s\u001b[2K\rProgress:  66.3%, ETA 00m00s,  307 MiB written, speed 305.8 MiB/s\u001b[2K\rProgress:  99.1%, ETA 00m00s,  459 MiB written, speed 304.5 MiB/s\u001b[2K\rFinished, time 00m01s,  463 MiB written, speed 304.3 MiB/s"}
+{"level":"info","module":"runtime/global","msg":"mke2fs 1.47.0 (5-Feb-2023)"}
+{"level":"warn","module":"runtime","msg":"Creating filesystem with 474112 1k blocks and 118320 inodes"}
+{"level":"warn","module":"runtime","msg":"Filesystem UUID: ae71851f-c955-4cf0-8f19-f1a3b666bceb"}
+{"level":"warn","module":"runtime","msg":"Superblock backups stored on blocks:"}
+{"level":"warn","module":"runtime","msg":"8193, 24577, 40961, 57345, 73729, 204801, 221185, 401409"}
+{"level":"warn","module":"runtime","msg":""}
+{"level":"warn","module":"runtime","msg":"Allocating group tables:  0/58\b\b\b\b\b     \b\b\b\b\bdone"}
+{"level":"warn","module":"runtime","msg":"Writing inode tables:  0/58\b\b\b\b\b     \b\b\b\b\bdone"}
+{"level":"warn","module":"runtime","msg":"Creating journal (8192 blocks): done"}
+{"level":"warn","module":"runtime","msg":"Writing superblocks and filesystem accounting information:  0/58\b\b\b\b\b     \b\b\b\b\bdone"}
+{"level":"warn","module":"runtime","msg":""}
+{"level":"info","module":"runtime/storage","msg":"filesystem is already as big as the device, no resize needed"}
+{"level":"warn","module":"runtime","msg":"[] EXT4-fs (dm-4): mounted filesystem ae71851f-c955-4cf0-8f19-f1a3b666bceb r/w with ordered data mode. Quota mode: disabled."}
+{"level":"info","module":"runtime/post_registration_init","msg":"starting the API server"}
+{"level":"info","module":"runtime/post_registration_init","msg":"initializing container environment"}
+{"level":"info","module":"runtime/global","msg":"udhcpc: started, v1.36.1"}
+{"level":"info","module":"runtime/global","msg":"udhcpc: broadcasting discover"}
+{"level":"info","module":"runtime/global","msg":"udhcpc: broadcasting select for 10.0.2.15, server 10.0.2.2"}
+{"level":"warn","module":"runtime","msg":"{\"msg\":\"udhcpc: lease of 10.0.2.15 obtained from 10.0.2.2, lease time 86400\",\"level\":\"INFO\",\"ts\":\"2025-07-04T03:24:41.329374421Z\",\"module\":\"global/etc/udhcpc.d/50default: Adding DNS 10.0.2.3"}
+{"level":"warn","module":"runtime","msg":"\"}"}
+{"level":"info","module":"runtime/post_registration_init","msg":"initializing container secrets"}
+{"level":"warn","module":"runtime","msg":"4c3455e3b0041414e69c68def"}
+{"level":"info","module":"runtime/secrets","msg":"provisioned secret","pub_name":"MESSAGE"}
+{"level":"info","module":"runtime/post_registration_init","msg":"starting containers"}
+{"level":"warn","module":"runtime","msg":"215b1cd922d715fe648edc33b504182393e345d08c689780016dab724172beb3"}
+{"level":"info","module":"runtime/global","msg":"Trying to pull docker.io/denoland/deno:alpine..."}
+{"level":"info","module":"runtime/global","msg":"Getting image source signatures"}
+{"level":"info","module":"runtime/global","msg":"Copying blob sha256:c64cafa2b887cf5403cca60fab5e761a37028c488e234b68b20b32ef31aaab80"}
+{"level":"info","module":"runtime/global","msg":"Copying blob sha256:fe07684b16b82247c3539ed86a65ff37a76138ec25d380bd80c869a1a4c73236"}
+{"level":"info","module":"runtime/global","msg":"Copying blob sha256:2e699c128395be1f5cf0679636841346fa7d2b429871a455112d5f1db43b0c85"}
+{"level":"info","module":"runtime/global","msg":"Copying blob sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1"}
+{"level":"info","module":"runtime/global","msg":"Copying blob sha256:3344858e45f8b25ea15bf05af3e121f8280dba230afd541b86d41695a9c92ff1"}
+{"level":"info","module":"runtime/global","msg":"Copying blob sha256:981548d724040535e0ef8851031617d5eac7b8e017a036f1e2786989fca7b530"}
+{"level":"info","module":"runtime/global","msg":"Copying blob sha256:5ec9c3736d363f1439148f48a2d332281c73127764f6fbd7a106514dec3f19c0"}
+{"level":"info","module":"runtime/global","msg":"Copying blob sha256:6a2a98c5a61e6cd8bf24e22076f8dd6f967a122ad7f737c42ff24edab22e0cda"}
+{"level":"info","module":"runtime/global","msg":"Copying config sha256:443acc3ac8da9967771d564437a4d81bf055d73bf1880678ce0d11132e8ea3fd"}
+{"level":"info","module":"runtime/global","msg":"Writing manifest to image destination"}
+{"level":"warn","module":"runtime","msg":"f6c22cc0dbd3eaa61c16f816ae108bc050f4b6d94bbdf072660f5808b5f418c7"}
+{"level":"warn","module":"runtime","msg":"[] podman1: port 1(veth0) entered blocking state"}
+{"level":"warn","module":"runtime","msg":"[] podman1: port 1(veth0) entered disabled state"}
+{"level":"warn","module":"runtime","msg":"[] veth0: entered allmulticast mode"}
+{"level":"warn","module":"runtime","msg":"[] veth0: entered promiscuous mode"}
+{"level":"warn","module":"runtime","msg":"[] podman1: port 1(veth0) entered blocking state"}
+{"level":"warn","module":"runtime","msg":"[] podman1: port 1(veth0) entered forwarding state"}
+{"level":"warn","module":"runtime","msg":"containers_echo_1"}
+{"level":"info","module":"runtime/post_registration_init","msg":"everything is up and running"}
+{"level":"warn","module":"runtime","msg":"[] podman1: port 1(veth0) entered disabled state"}
+{"level":"warn","module":"runtime","msg":"[] veth0 (unregistering): left allmulticast mode"}
+{"level":"warn","module":"runtime","msg":"[] veth0 (unregistering): left promiscuous mode"}
+{"level":"warn","module":"runtime","msg":"[] podman1: port 1(veth0) entered disabled state"}
+{"level":"warn","module":"runtime","msg":"total        used        free      shared  buff/cache   available"}
+{"level":"warn","module":"runtime","msg":"Mem:         304.3M       67.9M       13.1M      180.0K      223.3M      226.5M"}
+{"level":"warn","module":"runtime","msg":"Swap:             0           0           0"}
