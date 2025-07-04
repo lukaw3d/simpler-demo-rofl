@@ -5,7 +5,7 @@ license: Apache-2.0
 tee: tdx
 kind: container
 resources:
-  memory: 400
+  memory: 450
   cpus: 1
   storage:
     kind: disk-persistent
@@ -34,8 +34,8 @@ deployments:
           min_tcb_evaluation_data_number: 18
           tdx: {}
       enclaves:
-        - id: KIg4TwrazKg87nMJ59jApQSJVTPP8TGl8SoIZpUpE88AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-        - id: fwYDNSfGi4ocXcj16D6wW71q7JMKE4jybvDr0H6f0YIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        - id: tnNt6LP2VqgHLirxIzsqo1WfV5FdV8t40gYsyEfLemoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        - id: GT9b9n+hY62g0w8DXDCmnF0j1I2s+0uJesHh4+UY6xsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
       endorsements:
         - any: {}
       fees: endorsing_node
