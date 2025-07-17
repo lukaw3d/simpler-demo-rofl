@@ -1,0 +1,781 @@
+# Application
+  {"level":"info","module":"runtime/modules/rofl/app/registration","msg":"refreshed registration","result":"Simple(NullValue)","ts":"2025-07-17T18:43:06.031176936Z"}
+  {"epoch":45896,"last_registration_epoch":45895,"level":"info","module":"runtime/modules/rofl/app/registration","msg":"refreshing registration","ts":"2025-07-17T18:42:54.143873172Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc success \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc","ts":"2025-07-17T18:40:35.75903609Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc writing manifest \u001b[K","ts":"2025-07-17T18:40:35.757486592Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc verifying sha256 digest \u001b[K","ts":"2025-07-17T18:40:35.756497711Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K","ts":"2025-07-17T18:40:35.755256642Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:35.751178827Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:35.746859999Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:35.742390542Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:35.737763569Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:35.732983506Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc verifying sha256 digest ⠦ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc [GIN] 2025/07/17 - 18:40:32 | 200 | 11.339572173s |       127.0.0.1 | POST     \"/api/pull\"","ts":"2025-07-17T18:40:35.730410714Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K","ts":"2025-07-17T18:40:35.724267365Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:35.718843705Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:35.713158741Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:35.707614295Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:35.698280818Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc verifying sha256 digest ⠴ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:35.687420748Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K","ts":"2025-07-17T18:40:35.678004263Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:35.667557734Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:35.657268935Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:35.647088917Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:35.636946175Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc verifying sha256 digest ⠼ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:35.630045913Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K","ts":"2025-07-17T18:40:35.627489324Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:35.624810928Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:35.622100037Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:35.619395171Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:35.616652135Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc verifying sha256 digest ⠸ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:35.613070822Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K","ts":"2025-07-17T18:40:35.391562291Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:35.388883996Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:35.386181166Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:35.383467695Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:35.380806312Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc verifying sha256 digest ⠹ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:35.378070506Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K","ts":"2025-07-17T18:40:35.375535225Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:35.372845783Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:35.370142355Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:35.367452832Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:35.364739523Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc verifying sha256 digest ⠙ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:35.36111328Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K","ts":"2025-07-17T18:40:35.153744224Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:35.151092678Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:35.148394428Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:35.145720333Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:35.143033417Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc verifying sha256 digest ⠋ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:35.140336147Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K","ts":"2025-07-17T18:40:35.137793119Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:35.135115599Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:35.132424741Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:35.129731075Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:35.127008348Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:35.124342742Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:35.120077759Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:35.117377355Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:35.114574911Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:35.111825346Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:35.109119693Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:34.889323316Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:34.886613502Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:34.883908208Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:34.881164154Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:34.878307511Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:34.873715811Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:34.870695631Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:34.867623017Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:34.864418608Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:34.858170359Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:34.723097141Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:34.715952201Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:34.708512858Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:34.700652278Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:34.691769565Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:34.676460257Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:34.66622497Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:34.656112714Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:34.64593746Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:34.635301802Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:34.628068275Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:34.623351156Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:34.618317345Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:34.613135204Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:34.607685071Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:34.365521697Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:34.36281019Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:34.360180483Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:34.35746276Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:34.354705277Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:34.228478711Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:34.22326261Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:34.217834951Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:34.212170608Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:34.206317768Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:34.196052102Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:34.189122778Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:34.181720634Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:34.173688231Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 120007c81bf8: 100% ▕██████████████████▏  492 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:34.164978956Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K","ts":"2025-07-17T18:40:34.149660097Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:34.138668736Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:34.128024847Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:34.117167697Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:34.106451708Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:33.953380748Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:33.94827353Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:33.942922321Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:33.937376638Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc time=2025-07-17T18:40:30.523Z level=INFO source=download.go:177 msg=\"downloading 120007c81bf8 in 1 492 B part(s)\"","ts":"2025-07-17T18:40:33.934588382Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:33.922342758Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:33.91574047Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:33.908523644Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:33.900758485Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:33.88753402Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:33.877532088Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:33.866208954Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:33.855523164Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:33.727354143Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:33.717190814Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:33.706844251Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:33.696916103Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:33.680719591Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:33.670748852Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:33.660390268Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:33.65017623Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:33.634225019Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:33.62416556Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:33.614041825Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:33.603907261Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:33.426144271Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:33.418193275Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:33.409260824Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:33.399624037Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:33.383530169Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:33.373410469Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:33.363089241Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:33.352929892Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:33.185114664Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:33.175315953Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:33.164358887Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:33.153455425Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:33.135615166Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:33.124249363Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:33.112880528Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 3116c5225075: 100% ▕██████████████████▏   77 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:33.101601412Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K","ts":"2025-07-17T18:40:32.936828658Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:32.92964718Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:32.921754771Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:32.913111408Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:32.899833236Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:32.893539946Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:32.888361702Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:32.875210847Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:32.862674405Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:32.851829779Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc time=2025-07-17T18:40:29.267Z level=INFO source=download.go:177 msg=\"downloading 3116c5225075 in 1 77 B part(s)\"","ts":"2025-07-17T18:40:32.713750821Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:32.69228884Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:32.681936529Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:32.671693081Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:32.655916775Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:32.645806274Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:32.635724998Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:32.620134595Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:32.609511865Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:32.599117899Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:32.406123907Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:32.395618863Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:32.384871814Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:32.36920297Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:32.358917431Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:32.348190736Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:32.130176365Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:32.12724373Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:32.12433032Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:32.119366845Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:32.108350379Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:32.097542543Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:31.936491611Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:31.928969756Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:31.921032083Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:31.907274198Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:31.897228311Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:31.88612791Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:31.869042441Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:31.858292888Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling dd084c7d92a3: 100% ▕██████████████████▏ 8.4 KB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:31.847147373Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K","ts":"2025-07-17T18:40:31.668437938Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:31.659813926Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:31.650512417Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:31.634488813Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:31.623809549Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:31.606670366Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:31.596001996Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc time=2025-07-17T18:40:27.999Z level=INFO source=download.go:177 msg=\"downloading dd084c7d92a3 in 1 8.4 KB part(s)\"","ts":"2025-07-17T18:40:31.398214339Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:31.380092069Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:31.369786726Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:31.354264945Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:31.343933017Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:31.160808653Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:31.150412956Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:31.135147408Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:31.123788956Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:31.105427669Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:31.093471664Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:30.887893321Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:30.876221652Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:30.855885387Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:30.843018133Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:30.663085943Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:30.653695954Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:30.636913737Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:30.624501598Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:30.604601546Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling e0a42594d802: 100% ▕██████████████████▏  358 B                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:30.591806052Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K","ts":"2025-07-17T18:40:30.383598347Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:30.371633609Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:30.351887621Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc time=2025-07-17T18:40:26.825Z level=INFO source=download.go:177 msg=\"downloading e0a42594d802 in 1 358 B part(s)\"","ts":"2025-07-17T18:40:30.345945065Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:30.130741675Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:30.110730829Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:30.087421953Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:29.857333983Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕██████████████████▏ 815 MB                         \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:29.837941383Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf: 100% ▕█████████████████ ▏ 811 MB/815 MB  194 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:29.612659885Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  99% ▕█████████████████ ▏ 808 MB/815 MB  194 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:29.596873206Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  99% ▕█████████████████ ▏ 808 MB/815 MB  194 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:29.58690902Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  99% ▕█████████████████ ▏ 805 MB/815 MB  194 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:29.339411336Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  98% ▕█████████████████ ▏ 800 MB/815 MB  194 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:29.332497135Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  95% ▕█████████████████ ▏ 778 MB/815 MB  194 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:29.091045025Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  95% ▕█████████████████ ▏ 778 MB/815 MB  218 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:29.086585956Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  94% ▕████████████████  ▏ 766 MB/815 MB  218 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:29.082107661Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  91% ▕████████████████  ▏ 743 MB/815 MB  218 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:28.836498666Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  88% ▕███████████████   ▏ 714 MB/815 MB  218 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:28.831009709Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  84% ▕███████████████   ▏ 682 MB/815 MB  218 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:28.590344513Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  83% ▕██████████████    ▏ 673 MB/815 MB  218 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:28.585352727Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  81% ▕██████████████    ▏ 662 MB/815 MB  218 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:28.581186964Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  80% ▕██████████████    ▏ 656 MB/815 MB  218 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:28.427006849Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  80% ▕██████████████    ▏ 656 MB/815 MB  218 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:28.372140666Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  80% ▕██████████████    ▏ 656 MB/815 MB  218 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:28.347423339Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  80% ▕██████████████    ▏ 655 MB/815 MB  207 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:28.339084896Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  78% ▕██████████████    ▏ 638 MB/815 MB  207 MB/s      0s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:28.331283056Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  73% ▕█████████████     ▏ 596 MB/815 MB  207 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:27.833701627Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  69% ▕████████████      ▏ 560 MB/815 MB  207 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:27.828673035Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  67% ▕███████████       ▏ 542 MB/815 MB  207 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:27.584877049Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  63% ▕███████████       ▏ 513 MB/815 MB  207 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:27.581070815Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  61% ▕██████████        ▏ 495 MB/815 MB  207 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:27.576446836Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  57% ▕██████████        ▏ 461 MB/815 MB  207 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:27.329919258Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  55% ▕█████████         ▏ 449 MB/815 MB  207 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:27.325665442Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  53% ▕█████████         ▏ 433 MB/815 MB  207 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:27.085009185Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  51% ▕█████████         ▏ 416 MB/815 MB  207 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:27.080457505Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  49% ▕████████          ▏ 400 MB/815 MB  230 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:27.074375264Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  48% ▕████████          ▏ 390 MB/815 MB  230 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:26.836819903Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  45% ▕████████          ▏ 370 MB/815 MB  230 MB/s      1s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:26.828801578Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  43% ▕███████           ▏ 352 MB/815 MB  230 MB/s      2s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:26.823658172Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  41% ▕███████           ▏ 335 MB/815 MB  230 MB/s      2s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:26.574692347Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  37% ▕██████            ▏ 300 MB/815 MB  230 MB/s      2s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:26.570849778Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  36% ▕██████            ▏ 292 MB/815 MB  230 MB/s      2s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:26.349726051Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  33% ▕█████             ▏ 269 MB/815 MB  230 MB/s      2s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:26.336287991Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  32% ▕█████             ▏ 261 MB/815 MB  230 MB/s      2s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:26.322968285Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  28% ▕█████             ▏ 231 MB/815 MB  230 MB/s      2s\u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:26.082997567Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  25% ▕████              ▏ 204 MB/815 MB                  \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:26.073646532Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  22% ▕███               ▏ 175 MB/815 MB                  \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:25.832512736Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  20% ▕███               ▏ 164 MB/815 MB                  \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:25.827359152Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  17% ▕███               ▏ 136 MB/815 MB                  \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:25.820613282Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  14% ▕██                ▏ 113 MB/815 MB                  \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:25.570086941Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:  12% ▕██                ▏  96 MB/815 MB                  \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:25.566146091Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:   9% ▕█                 ▏  73 MB/815 MB                  \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:25.323618866Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:   8% ▕█                 ▏  61 MB/815 MB                  \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:25.32020754Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:   3% ▕                  ▏  27 MB/815 MB                  \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:25.315727387Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc pulling 7cd4618c1faf:   0% ▕                  ▏ 466 KB/815 MB                  \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[A\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:25.068063616Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest ⠸ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest ⠼ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest \u001b[K","ts":"2025-07-17T18:40:25.06313029Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest ⠋ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest ⠙ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc \u001b[?2026h\u001b[?25l\u001b[1Gpulling manifest ⠹ \u001b[K\u001b[?25h\u001b[?2026lea50ae94c9fc time=2025-07-17T18:40:21.329Z level=INFO source=download.go:177 msg=\"downloading 7cd4618c1faf in 9 100 MB part(s)\"","ts":"2025-07-17T18:40:24.825188644Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc [GIN] 2025/07/17 - 18:40:20 | 200 |     193.333µs |       127.0.0.1 | HEAD     \"/\"","ts":"2025-07-17T18:40:24.315764304Z"}
+
+
+
+# Booted
+  {"level":"info","module":"runtime/post_registration_init","msg":"everything is up and running","ts":"2025-07-17T18:40:19.566944534Z"}
+  {"level":"warn","module":"runtime","msg":"containers_python-telegram-bot_1","ts":"2025-07-17T18:40:22.830774377Z"}
+  {"level":"warn","module":"runtime","msg":"[  222.554138] podman1: port 2(veth1) entered forwarding state","ts":"2025-07-17T18:40:22.661400637Z"}
+  {"level":"warn","module":"runtime","msg":"[  222.552263] podman1: port 2(veth1) entered blocking state","ts":"2025-07-17T18:40:22.65949134Z"}
+  {"level":"warn","module":"runtime","msg":"[  222.550204] veth1: entered promiscuous mode","ts":"2025-07-17T18:40:22.657116177Z"}
+  {"level":"warn","module":"runtime","msg":"[  222.548623] veth1: entered allmulticast mode","ts":"2025-07-17T18:40:22.65552983Z"}
+  {"level":"warn","module":"runtime","msg":"[  222.546701] podman1: port 2(veth1) entered disabled state","ts":"2025-07-17T18:40:22.653965226Z"}
+  {"level":"warn","module":"runtime","msg":"[  222.544630] podman1: port 2(veth1) entered blocking state","ts":"2025-07-17T18:40:22.65205385Z"}
+  {"level":"warn","module":"runtime","msg":"5ee30ccc8aa70867f539eb848014664026c762db838c344fce65d53f6237cd08","ts":"2025-07-17T18:40:22.557976159Z"}
+  {"level":"info","module":"runtime/global","msg":"Writing manifest to image destination","ts":"2025-07-17T18:40:19.137032985Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying config sha256:0e0a37b3d2d7376e2d2118dd4e7fe7fa5d7fb8edccf5b4b69ee8a53c729382a5","ts":"2025-07-17T18:40:19.117256688Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:19bcf7531cff7fcf40fb41d74069742b234fa02bb2c21fb5811c9ba1945fddb2","ts":"2025-07-17T18:40:16.539880988Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:32badb2b1e5796d54dee965cd7aac482cc57efe3e0b8e67fdf9d54fc61705221","ts":"2025-07-17T18:40:16.477690519Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:bc33fb833569f915f5e8dbb03b860c2dfca68cc9c8ca546e6f1e5fc0676068ac","ts":"2025-07-17T18:40:16.316841836Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:813fee53afe112e078071735ce3cfe4f1ccae92662ba3b612bab7edc4f031c0f","ts":"2025-07-17T18:40:16.304917837Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:a3c7bc1de87416dec0f281eccd0b87cdc6eaf1b885647bab3db0d695d6a783f3","ts":"2025-07-17T18:40:16.286065454Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:18dfb1d5a53f5f356135a3ad3365fdedd9c301a56b4d4053309cfe7805b610b7","ts":"2025-07-17T18:40:16.272108064Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:1207c741d8c9b028d98c4006013f9de959da3c55f85b91ed5e4583438a0112ca","ts":"2025-07-17T18:40:16.244663144Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:66cf193900b4c84b9c37f82d5db001d31fb4b83f04a70bff467c57c5332c36aa","ts":"2025-07-17T18:40:16.228448985Z"}
+  {"level":"info","module":"runtime/global","msg":"Getting image source signatures","ts":"2025-07-17T18:40:16.2112682Z"}
+  {"level":"info","module":"runtime/global","msg":"Trying to pull ghcr.io/oasisprotocol/demo-rofl-tgbot:ollama...","ts":"2025-07-17T18:40:15.954501324Z"}
+  {"level":"warn","module":"runtime","msg":"containers_ollama_1","ts":"2025-07-17T18:40:19.183884549Z"}
+  {"level":"warn","module":"runtime","msg":"[  218.237950] podman1: port 1(veth0) entered forwarding state","ts":"2025-07-17T18:40:18.347064214Z"}
+  {"level":"warn","module":"runtime","msg":"[  218.233845] podman1: port 1(veth0) entered blocking state","ts":"2025-07-17T18:40:18.343159075Z"}
+  {"level":"warn","module":"runtime","msg":"[  218.229760] veth0: entered promiscuous mode","ts":"2025-07-17T18:40:18.338083505Z"}
+  {"level":"warn","module":"runtime","msg":"[  218.226434] veth0: entered allmulticast mode","ts":"2025-07-17T18:40:18.334952323Z"}
+  {"level":"warn","module":"runtime","msg":"[  218.222639] podman1: port 1(veth0) entered disabled state","ts":"2025-07-17T18:40:18.331672294Z"}
+  {"level":"warn","module":"runtime","msg":"[  218.218566] podman1: port 1(veth0) entered blocking state","ts":"2025-07-17T18:40:18.327830466Z"}
+  {"level":"warn","module":"runtime","msg":"ea50ae94c9fc2b455c10b73dae8405e6a8d8ffaa02bc4d9c9444349e1bc1fd8d","ts":"2025-07-17T18:40:17.901662872Z"}
+  {"level":"info","module":"runtime/global","msg":"Writing manifest to image destination","ts":"2025-07-17T18:40:14.293144068Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying config sha256:029391db139caf88be3125d86633fde6e713ae8865580df93ff56a5dd49da490","ts":"2025-07-17T18:40:14.253584405Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:d0343d5f73e90bcfa260bc89a3f8157c4b4fd9c77fc7324e204aada10cb52216","ts":"2025-07-17T18:39:25.090296187Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:b08e2ff4391ef70ca747960a731d1f21a75febbd86edc403cd1514a099615808","ts":"2025-07-17T18:39:25.084300456Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:9d52186ca5a292c82cf6736879699d82c7f9f966dde19a6c0ff51070bddea1cd","ts":"2025-07-17T18:39:25.069460712Z"}
+  {"level":"info","module":"runtime/global","msg":"Copying blob sha256:5343bc64fdabe1473b41ba63e1de54ce0dc37c572fc623666ba957093cbd5e70","ts":"2025-07-17T18:39:25.053489518Z"}
+  {"level":"info","module":"runtime/global","msg":"Getting image source signatures","ts":"2025-07-17T18:39:25.038273514Z"}
+  {"level":"info","module":"runtime/global","msg":"Trying to pull docker.io/ollama/ollama:latest...","ts":"2025-07-17T18:39:24.656832119Z"}
+  {"level":"warn","module":"runtime","msg":"81267376566ac1d56ad51a726b35403565718cbc2125cb064fb101359cdc95a9","ts":"2025-07-17T18:39:27.764553995Z"}
+  {"level":"info","module":"runtime/post_registration_init","msg":"starting containers","ts":"2025-07-17T18:39:23.274281955Z"}
+  {"level":"info","module":"runtime/secrets","msg":"provisioned secret","pub_name":"TOKEN","ts":"2025-07-17T18:39:23.267443181Z"}
+  {"level":"warn","module":"runtime","msg":"8e4872dbf4f50557421d1c634","ts":"2025-07-17T18:39:26.576426382Z"}
+  {"level":"info","module":"runtime/secrets","msg":"provisioned secret","pub_name":"OLLAMA_SYSTEM_PROMPT","ts":"2025-07-17T18:39:23.214359872Z"}
+  {"level":"warn","module":"runtime","msg":"cac1225a1cc4a8897c485e348","ts":"2025-07-17T18:39:26.523421703Z"}
+  {"level":"info","module":"runtime/secrets","msg":"provisioned secret","pub_name":"OLLAMA_MODEL","ts":"2025-07-17T18:39:23.151194563Z"}
+  {"level":"warn","module":"runtime","msg":"f6955be1afd1403ff60b3e8b0","ts":"2025-07-17T18:39:26.457006471Z"}
+  {"level":"info","module":"runtime/post_registration_init","msg":"initializing container secrets","ts":"2025-07-17T18:39:23.012958383Z"}
+  {"level":"warn","module":"runtime","msg":"/etc/udhcpc.d/50default: Adding DNS 10.0.2.3","ts":"2025-07-17T18:39:24.772013007Z"}
+  {"level":"info","module":"runtime/global","msg":"udhcpc: lease of 10.0.2.15 obtained from 10.0.2.2, lease time 86400","ts":"2025-07-17T18:39:21.428476329Z"}
+  {"level":"info","module":"runtime/global","msg":"udhcpc: broadcasting select for 10.0.2.15, server 10.0.2.2","ts":"2025-07-17T18:39:21.393346464Z"}
+  {"level":"info","module":"runtime/global","msg":"udhcpc: broadcasting discover","ts":"2025-07-17T18:39:21.364029652Z"}
+  {"level":"info","module":"runtime/global","msg":"udhcpc: started, v1.36.1","ts":"2025-07-17T18:39:21.326767786Z"}
+  {"level":"info","module":"runtime/post_registration_init","msg":"initializing container environment","ts":"2025-07-17T18:39:21.311039795Z"}
+  {"level":"info","module":"runtime/post_registration_init","msg":"starting the API server","ts":"2025-07-17T18:39:21.297473204Z"}
+  {"level":"warn","module":"runtime","msg":"[  164.493958] EXT4-fs (dm-4): mounted filesystem 4ac1cb46-02e5-4065-b4c3-78c563dccefb r/w with ordered data mode. Quota mode: disabled.","ts":"2025-07-17T18:39:24.602856069Z"}
+  {"level":"info","module":"runtime/storage","msg":"filesystem is already as big as the device, no resize needed","ts":"2025-07-17T18:39:21.239188814Z"}
+  {"level":"warn","module":"runtime","msg":"","ts":"2025-07-17T18:39:24.548539384Z"}
+  {"level":"warn","module":"runtime","msg":"Writing superblocks and filesystem accounting information:   0/132\b\b\b\b\b\b\b       \b\b\b\b\b\b\bdone","ts":"2025-07-17T18:39:24.548387501Z"}
+  {"level":"warn","module":"runtime","msg":"Creating journal (32768 blocks): done","ts":"2025-07-17T18:39:24.436005133Z"}
+  {"level":"warn","module":"runtime","msg":"Writing inode tables:   0/132\b\b\b\b\b\b\b       \b\b\b\b\b\b\bdone","ts":"2025-07-17T18:39:23.840090709Z"}
+  {"level":"warn","module":"runtime","msg":"Allocating group tables:   0/132\b\b\b\b\b\b\b       \b\b\b\b\b\b\bdone","ts":"2025-07-17T18:39:23.8357517Z"}
+  {"level":"warn","module":"runtime","msg":"","ts":"2025-07-17T18:39:23.832623473Z"}
+  {"level":"warn","module":"runtime","msg":"4096000","ts":"2025-07-17T18:39:23.832499837Z"}
+  {"level":"warn","module":"runtime","msg":"32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,","ts":"2025-07-17T18:39:23.831971198Z"}
+  {"level":"warn","module":"runtime","msg":"Superblock backups stored on blocks:","ts":"2025-07-17T18:39:23.828198503Z"}
+  {"level":"warn","module":"runtime","msg":"Filesystem UUID: 4ac1cb46-02e5-4065-b4c3-78c563dccefb","ts":"2025-07-17T18:39:23.826861421Z"}
+  {"level":"warn","module":"runtime","msg":"Creating filesystem with 4305924 4k blocks and 1077120 inodes","ts":"2025-07-17T18:39:23.825043722Z"}
+  {"level":"info","module":"runtime/global","msg":"mke2fs 1.47.0 (5-Feb-2023)","ts":"2025-07-17T18:39:20.478482186Z"}
+  {"level":"warn","module":"runtime","msg":"4.0 MiB/s\u001b[2K\rProgress:  69.9%, ETA 00m35s,   11 GiB written, speed 144.2 MiB/s\u001b[2K\rProgress:  70.5%, ETA 00m34s,   11 GiB written, speed 144.3 MiB/s\u001b[2K\rProgress:  70.5%, ETA 00m34s,   11 GiB written, speed 143.3 MiB/s\u001b[2K\rProgress:  71.0%, ETA 00m33s,   11 GiB written, speed 143.6 MiB/s\u001b[2K\rProgress:  71.3%, ETA 00m33s,   11 GiB written, speed 143.3 MiB/s\u001b[2K\rProgress:  71.8%, ETA 00m32s,   11 GiB written, speed 143.5 MiB/s\u001b[2K\rProgress:  72.3%, ETA 00m32s,   11 GiB written, speed 143.7 MiB/s\u001b[2K\rProgress:  72.9%, ETA 00m31s,   11 GiB written, speed 143.9 MiB/s\u001b[2K\rProgress:  73.4%, ETA 00m31s,   12 GiB written, speed 144.0 MiB/s\u001b[2K\rProgress:  73.9%, ETA 00m30s,   12 GiB written, speed 144.1 MiB/s\u001b[2K\rProgress:  74.0%, ETA 00m30s,   12 GiB written, speed 143.2 MiB/s\u001b[2K\rProgress:  74.5%, ETA 00m29s,   12 GiB written, speed 143.3 MiB/s\u001b[2K\rProgress:  75.0%, ETA 00m29s,   12 GiB written, speed 143.4 MiB/s\u001b[2K\rProgress:  75.5%, ETA 00m28s,   12 GiB written, speed 143.6 MiB/s\u001b[2K\rProgress:  76.1%, ETA 00m27s,   12 GiB written, speed 143.8 MiB/s\u001b[2K\rProgress:  76.6%, ETA 00m27s,   12 GiB written, speed 144.0 MiB/s\u001b[2K\rProgress:  76.9%, ETA 00m27s,   12 GiB written, speed 142.7 MiB/s\u001b[2K\rProgress:  77.4%, ETA 00m26s,   12 GiB written, speed 142.7 MiB/s\u001b[2K\rProgress:  77.9%, ETA 00m26s,   12 GiB written, speed 142.9 MiB/s\u001b[2K\rProgress:  78.5%, ETA 00m25s,   12 GiB written, speed 143.2 MiB/s\u001b[2K\rProgress:  78.6%, ETA 00m25s,   12 GiB written, speed 142.5 MiB/s\u001b[2K\rProgress:  79.0%, ETA 00m24s,   12 GiB written, speed 142.5 MiB/s\u001b[2K\rProgress:  79.5%, ETA 00m24s,   13 GiB written, speed 142.6 MiB/s\u001b[2K\rProgress:  79.9%, ETA 00m23s,   13 GiB written, speed 142.5 MiB/s\u001b[2K\rProgress:  80.4%, ETA 00m23s,   13 GiB written, speed 142.7 MiB/s\u001b[2K\rProgress:  80.9%, ETA 00m22s,   13 GiB written, speed 142.9 MiB/s\u001b[2K\rProgress:  81.5%, ETA 00m21s,   13 GiB written, speed 143.1 MiB/s\u001b[2K\rProgress:  82.1%, ETA 00m21s,   13 GiB written, speed 143.4 MiB/s\u001b[2K\rProgress:  82.6%, ETA 00m20s,   13 GiB written, speed 143.5 MiB/s\u001b[2K\rProgress:  82.6%, ETA 00m20s,   13 GiB written, speed 142.7 MiB/s\u001b[2K\rProgress:  83.1%, ETA 00m19s,   13 GiB written, speed 142.7 MiB/s\u001b[2K\rProgress:  83.6%, ETA 00m19s,   13 GiB written, speed 142.9 MiB/s\u001b[2K\rProgress:  84.1%, ETA 00m18s,   13 GiB written, speed 143.1 MiB/s\u001b[2K\rProgress:  84.7%, ETA 00m17s,   13 GiB written, speed 143.3 MiB/s\u001b[2K\rProgress:  85.2%, ETA 00m17s,   13 GiB written, speed 143.4 MiB/s\u001b[2K\rProgress:  85.5%, ETA 00m17s,   14 GiB written, speed 142.3 MiB/s\u001b[2K\rProgress:  86.1%, ETA 00m16s,   14 GiB written, speed 142.5 MiB/s\u001b[2K\rProgress:  86.6%, ETA 00m15s,   14 GiB written, speed 142.8 MiB/s\u001b[2K\rProgress:  87.3%, ETA 00m15s,   14 GiB written, speed 142.4 MiB/s\u001b[2K\rProgress:  87.7%, ETA 00m14s,   14 GiB written, speed 142.5 MiB/s\u001b[2K\rProgress:  88.2%, ETA 00m13s,   14 GiB written, speed 142.6 MiB/s\u001b[2K\rProgress:  88.5%, ETA 00m13s,   14 GiB written, speed 142.3 MiB/s\u001b[2K\rProgress:  89.0%, ETA 00m13s,   14 GiB written, speed 142.4 MiB/s\u001b[2K\rProgress:  89.5%, ETA 00m12s,   14 GiB written, speed 142.5 MiB/s\u001b[2K\rProgress:  89.9%, ETA 00m11s,   14 GiB written, speed 142.6 MiB/s\u001b[2K\rProgress:  90.5%, ETA 00m11s,   14 GiB written, speed 142.7 MiB/s\u001b[2K\rProgress:  90.9%, ETA 00m10s,   14 GiB written, speed 142.8 MiB/s\u001b[2K\rProgress:  91.2%, ETA 00m10s,   14 GiB written, speed 141.8 MiB/s\u001b[2K\rProgress:  91.7%, ETA 00m09s,   15 GiB written, speed 141.9 MiB/s\u001b[2K\rProgress:  92.2%, ETA 00m09s,   15 GiB written, speed 142.0 MiB/s\u001b[2K\rProgress:  92.7%, ETA 00m08s,   15 GiB written, speed 142.1 MiB/s\u001b[2K\rProgress:  93.2%, ETA 00m07s,   15 GiB written, speed 142.3 MiB/s\u001b[2K\rProgress:  93.8%, ETA 00m07s,   15 GiB written, speed 142.5 MiB/s\u001b[2K\rProgress:  94.1%, ETA 00m06s,   15 GiB written, speed 142.0 MiB/s\u001b[2K\rProgress:  94.6%, ETA 00m06s,   15 GiB written, speed 142.1 MiB/s\u001b[2K\rProgress:  95.2%, ETA 00m05s,   15 GiB written, speed 142.3 MiB/s\u001b[2K\rProgress:  95.4%, ETA 00m05s,   15 GiB written, speed 141.5 MiB/s\u001b[2K\rProgress:  95.9%, ETA 00m04s,   15 GiB written, speed 141.6 MiB/s\u001b[2K\rProgress:  96.5%, ETA 00m04s,   15 GiB written, speed 141.8 MiB/s\u001b[2K\rProgress:  97.0%, ETA 00m03s,   15 GiB written, speed 141.5 MiB/s\u001b[2K\rProgress:  97.4%, ETA 00m03s,   16 GiB written, speed 141.6 MiB/s\u001b[2K\rProgress:  97.9%, ETA 00m02s,   16 GiB written, speed 141.7 MiB/s\u001b[2K\rProgress:  98.5%, ETA 00m01s,   16 GiB written, speed 141.9 MiB/s\u001b[2K\rProgress:  99.1%, ETA 00m01s,   16 GiB written, speed 142.1 MiB/s\u001b[2K\rProgress:  99.6%, ETA 00m00s,   16 GiB written, speed 142.3 MiB/s\u001b[2K\rProgress:  99.8%, ETA 00m00s,   16 GiB written, speed 141.7 MiB/s\u001b[2K\rFinished, time 01m58s,   16 GiB written, speed 141.7 MiB/s","ts":"2025-07-17T18:39:21.3699753Z"}
+  {"level":"warn","module":"runtime","msg":"[   42.528554] alg: No test for authenc(hmac(sha256),xts(aes)) (authenc(hmac(sha256-ni),xts-aes-vaes-avx2))","ts":"2025-07-17T18:37:22.634516812Z"}
+  {"level":"warn","module":"runtime","msg":"You can interrupt this by pressing CTRL+c (rest of not wiped device will contain invalid checksum).","ts":"2025-07-17T18:37:22.520505551Z"}
+  {"level":"warn","module":"runtime","msg":"Wiping device to initialize integrity checksum.","ts":"2025-07-17T18:37:22.518388109Z"}
+  {"level":"info","module":"runtime/global","msg":"Device /dev/mapper/part-storage is not a valid LUKS device.","ts":"2025-07-17T18:37:05.265579686Z"}
+  {"level":"info","module":"runtime/post_registration_init","msg":"initializing stage 2 storage","ts":"2025-07-17T18:37:05.077046544Z"}
+  {"level":"info","module":"runtime/appd/services/kms","msg":"KMS service initialized","ts":"2025-07-17T18:37:05.060161752Z"}
+  {"level":"info","module":"runtime/appd/services/kms","msg":"attempting to obtain the root key for our application","ts":"2025-07-17T18:36:53.38547742Z"}
+  {"level":"info","module":"runtime/appd/services/kms","msg":"starting KMS service","ts":"2025-07-17T18:36:53.380494756Z"}
+  {"level":"info","module":"runtime/modules/rofl/app","msg":"performing app-specific post-registration initialization","ts":"2025-07-17T18:36:53.374322222Z"}
+  {"level":"info","module":"runtime/modules/rofl/app","msg":"starting application","ts":"2025-07-17T18:36:53.368498439Z"}
+  {"level":"info","module":"runtime/modules/rofl/app","msg":"initial registration completed","ts":"2025-07-17T18:36:53.362206684Z"}
+  {"level":"info","module":"runtime/modules/rofl/app/registration","msg":"refreshed registration","result":"Simple(NullValue)","ts":"2025-07-17T18:36:53.352903387Z"}
+  {"epoch":45895,"last_registration_epoch":null,"level":"info","module":"runtime/modules/rofl/app/registration","msg":"refreshing registration","ts":"2025-07-17T18:36:43.167624358Z"}
+  {"level":"info","module":"runtime/attestation","msg":"Updating endorsed TEE capability","ts":"2025-07-17T18:36:41.929703208Z"}
+  {"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"State freshness successfully verified","ts":"2025-07-17T18:36:41.91379049Z"}
+  {"level":"info","module":"runtime/attestation","msg":"Configuring quote for the runtime attestation key binding","ts":"2025-07-17T18:36:40.467572539Z"}
+  {"level":"info","module":"runtime/attestation","msg":"Configuring quote policy","ts":"2025-07-17T18:36:40.448526508Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.458345] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input2","ts":"2025-07-17T18:36:42.564633159Z"}
+  {"level":"info","module":"runtime/modules/rofl/app/notifier","msg":"starting notifier task","ts":"2025-07-17T18:36:39.223591231Z"}
+  {"level":"info","module":"runtime/modules/rofl/app/registration","msg":"starting registration task","ts":"2025-07-17T18:36:39.22257804Z"}
+  {"level":"info","module":"runtime/modules/rofl/app/watchdog","msg":"starting watchdog task","ts":"2025-07-17T18:36:39.220672147Z"}
+  {"level":"info","module":"runtime/modules/rofl/app","msg":"entering processor loop","ts":"2025-07-17T18:36:39.219707686Z"}
+  {"err":"BadResponse","level":"error","module":"runtime/modules/rofl/app","msg":"failed to register for notifications","ts":"2025-07-17T18:36:39.218137066Z"}
+  {"app_id":"rofl1qrxa72plnyg6vj0nrggnct76wn6xf8e9hvh20784","level":"info","module":"runtime/modules/rofl/app","msg":"starting processor","ts":"2025-07-17T18:36:39.211340217Z"}
+  {"level":"info","module":"runtime/attestation","msg":"Initializing the runtime key report","ts":"2025-07-17T18:36:39.20585825Z"}
+  {"level":"info","module":"runtime/dispatcher","msg":"Starting the runtime dispatcher","ts":"2025-07-17T18:36:39.190597136Z"}
+  {"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Verifying state freshness using prove freshness transaction","ts":"2025-07-17T18:36:39.178049451Z"}
+  {"latest_height":27547216,"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Consensus verifier synced","ts":"2025-07-17T18:36:39.176479111Z"}
+  {"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Consensus verifier initialized","trust_root_chain_context":"\"0b91b8e4e44b2003a7c5e23ddadb5e14ef5345c0ebcb3ddcae07fa2f244cab76\"","trust_root_hash":"\"01302b15ea796be0e4db3c959bff64058f7bbfe0ee25f6acba62397c1b6477ba\"","trust_root_height":27537585,"trust_root_runtime_id":"000000000000000000000000000000000000000000000000a6d1e3ebf60dff6c","ts":"2025-07-17T18:36:39.17016305Z"}
+  {"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Consensus chain context hasn't changed","ts":"2025-07-17T18:36:39.167026634Z"}
+  {"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Checking chain context change","ts":"2025-07-17T18:36:39.165160751Z"}
+  {"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Loading trusted state","ts":"2025-07-17T18:36:39.164209698Z"}
+  {"level":"info","module":"runtime/consensus/cometbft/verifier","msg":"Starting consensus verifier","ts":"2025-07-17T18:36:39.161359533Z"}
+  {"consensus_backend":"tendermint","consensus_chain_context":"0b91b8e4e44b2003a7c5e23ddadb5e14ef5345c0ebcb3ddcae07fa2f244cab76","consensus_protocol_version":"Version { major: 7, minor: 0, patch: 0 }","level":"info","local_config":"{}","module":"runtime/protocol","msg":"Received host environment information","ts":"2025-07-17T18:36:39.151678837Z"}
+  {"level":"info","module":"runtime/protocol","msg":"Starting protocol writer thread","ts":"2025-07-17T18:36:39.144113664Z"}
+  {"level":"info","module":"runtime/protocol","msg":"Starting protocol reader thread","ts":"2025-07-17T18:36:39.136109446Z"}
+  {"level":"info","module":"runtime","msg":"Establishing connection with the worker host","ts":"2025-07-17T18:36:39.123483003Z"}
+  {"level":"info","module":"runtime/tdx","msg":"Early initialization completed","ts":"2025-07-17T18:36:39.113468509Z"}
+  {"level":"info","module":"runtime/tdx","msg":"Setting up signal handlers","ts":"2025-07-17T18:36:39.104869489Z"}
+  {"level":"info","module":"runtime/tdx","msg":"Mounting required filesystems","ts":"2025-07-17T18:36:39.098380073Z"}
+  {"level":"info","module":"runtime","msg":"Runtime is starting","ts":"2025-07-17T18:36:39.089810865Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.213093] device-mapper: verity: sha256 using shash \"sha256-ni\"","ts":"2025-07-17T18:36:42.318438728Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.182740] Run /init as init process","ts":"2025-07-17T18:36:42.287644189Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.180815] Freeing unused kernel image (rodata/data gap) memory: 1924K","ts":"2025-07-17T18:36:42.28660816Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.178290] Write protecting the kernel read-only data: 18432k","ts":"2025-07-17T18:36:42.28387889Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.176560] Freeing unused kernel image (initmem) memory: 17172K","ts":"2025-07-17T18:36:42.282152446Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.171259] ata5: SATA link down (SStatus 0 SControl 300)","ts":"2025-07-17T18:36:42.276728361Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.169706] ata3: SATA link down (SStatus 0 SControl 300)","ts":"2025-07-17T18:36:42.274621341Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.167647] ata1: SATA link down (SStatus 0 SControl 300)","ts":"2025-07-17T18:36:42.273170228Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.166064] ata2: SATA link down (SStatus 0 SControl 300)","ts":"2025-07-17T18:36:42.27101366Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.162605] ata4: SATA link down (SStatus 0 SControl 300)","ts":"2025-07-17T18:36:42.269321672Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.157259] ata6: SATA link down (SStatus 0 SControl 300)","ts":"2025-07-17T18:36:42.264713458Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.156770] clk: Disabling unused clocks","ts":"2025-07-17T18:36:42.262940498Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.154024] netconsole: network logging started","ts":"2025-07-17T18:36:42.260518945Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.146186] printk: legacy console [netcon0] enabled","ts":"2025-07-17T18:36:42.253118629Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.085664] Loading compiled-in X.509 certificates","ts":"2025-07-17T18:36:42.19253876Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.080202] sched_clock: Marking stable (1346511363, 733490206)->(3974745165, -1894743596)","ts":"2025-07-17T18:36:42.18916082Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.073765] AES CTR mode by8 optimization enabled","ts":"2025-07-17T18:36:42.180897882Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.070448] IPI shorthand broadcast: enabled","ts":"2025-07-17T18:36:42.17725979Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.058815] NET: Registered PF_VSOCK protocol family","ts":"2025-07-17T18:36:42.166489318Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.055189] Key type dns_resolver registered","ts":"2025-07-17T18:36:42.162363576Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.051507] Bridge firewalling registered","ts":"2025-07-17T18:36:42.158618293Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.047235] NET: Registered PF_PACKET protocol family","ts":"2025-07-17T18:36:42.155341915Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.043715] In-situ OAM (IOAM) with IPv6","ts":"2025-07-17T18:36:42.15104477Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.040288] Segment Routing with IPv6","ts":"2025-07-17T18:36:42.147526988Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.029358] NET: Registered PF_INET6 protocol family","ts":"2025-07-17T18:36:42.138080803Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.021648] usbhid: USB HID core driver","ts":"2025-07-17T18:36:42.129580508Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.015580] usbcore: registered new interface driver usbhid","ts":"2025-07-17T18:36:42.125346537Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.008802] sdhci-pltfm: SDHCI platform and OF driver helper","ts":"2025-07-17T18:36:42.119048065Z"}
+  {"level":"warn","module":"runtime","msg":"[    2.003073] sdhci: Copyright(c) Pierre Ossman","ts":"2025-07-17T18:36:42.112406063Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.991804] sdhci: Secure Digital Host Controller Interface driver","ts":"2025-07-17T18:36:42.106737096Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.986082] i2c i2c-0: Memory type 0x07 not supported yet, not instantiating SPD","ts":"2025-07-17T18:36:42.099443299Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.984150] intel_pstate: CPU model not supported","ts":"2025-07-17T18:36:42.095512672Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.982506] i801_smbus 0000:00:1f.3: SMBus using PCI interrupt","ts":"2025-07-17T18:36:42.08969825Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.968237] i801_smbus 0000:00:1f.3: Enabling SMBus device","ts":"2025-07-17T18:36:42.085476364Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.967601] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@lists.linux.dev","ts":"2025-07-17T18:36:42.082171876Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.956452] rtc_cmos 00:03: alarms up to one day, y3k, 242 bytes nvram","ts":"2025-07-17T18:36:42.068003187Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.949879] rtc_cmos 00:03: registered as rtc0","ts":"2025-07-17T18:36:42.059226002Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.932309] rtc_cmos 00:03: RTC can wake from S4","ts":"2025-07-17T18:36:42.044897885Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.931357] input: AT Raw Set 2 keyboard as /devices/platform/i8042/serio0/input/input0","ts":"2025-07-17T18:36:42.039374834Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.927489] mousedev: PS/2 mouse device common for all mice","ts":"2025-07-17T18:36:42.034413099Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.924325] serio: i8042 AUX port at 0x60,0x64 irq 12","ts":"2025-07-17T18:36:42.030993745Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.921479] serio: i8042 KBD port at 0x60,0x64 irq 1","ts":"2025-07-17T18:36:42.028187267Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.912546] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12","ts":"2025-07-17T18:36:42.021183952Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.908731] usbserial: USB Serial support registered for pl2303","ts":"2025-07-17T18:36:42.01634065Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.905083] usbcore: registered new interface driver pl2303","ts":"2025-07-17T18:36:42.012576261Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.900277] usbserial: USB Serial support registered for FTDI USB Serial Device","ts":"2025-07-17T18:36:42.008959196Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.896215] usbcore: registered new interface driver ftdi_sio","ts":"2025-07-17T18:36:42.004119186Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.891861] usbserial: USB Serial support registered for generic","ts":"2025-07-17T18:36:42.000048012Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.886849] usbcore: registered new interface driver usbserial_generic","ts":"2025-07-17T18:36:41.995693145Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.882485] igb: Copyright (c) 2007-2014 Intel Corporation.","ts":"2025-07-17T18:36:41.990657099Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.878261] igb: Intel(R) Gigabit Ethernet Network Driver","ts":"2025-07-17T18:36:41.986332534Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.873667] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.","ts":"2025-07-17T18:36:41.982084537Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.869805] e1000e: Intel(R) PRO/1000 Network Driver","ts":"2025-07-17T18:36:41.977500867Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.865221] e1000: Copyright (c) 1999-2006 Intel Corporation.","ts":"2025-07-17T18:36:41.973645721Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.861507] e1000: Intel(R) PRO/1000 Network Driver","ts":"2025-07-17T18:36:41.969066331Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.857220] e100: Copyright(c) 1999-2006 Intel Corporation","ts":"2025-07-17T18:36:41.965316139Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.853607] e100: Intel(R) PRO/100 Network Driver","ts":"2025-07-17T18:36:41.961016651Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.843954] tun: Universal TUN/TAP device driver, 1.6","ts":"2025-07-17T18:36:41.949477021Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.841311] ata6: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000380 irq 29 lpm-pol 0","ts":"2025-07-17T18:36:41.947801409Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.838729] ata5: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000300 irq 29 lpm-pol 0","ts":"2025-07-17T18:36:41.94519455Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.836126] ata4: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000280 irq 29 lpm-pol 0","ts":"2025-07-17T18:36:41.942609074Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.833433] ata3: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000200 irq 29 lpm-pol 0","ts":"2025-07-17T18:36:41.940009239Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.830751] ata2: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000180 irq 29 lpm-pol 0","ts":"2025-07-17T18:36:41.937322057Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.828101] ata1: SATA max UDMA/133 abar m4096@0x80000000 port 0x80000100 irq 29 lpm-pol 0","ts":"2025-07-17T18:36:41.93463291Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.827052] scsi host5: ahci","ts":"2025-07-17T18:36:41.931888938Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.824054] scsi host4: ahci","ts":"2025-07-17T18:36:41.928902545Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.821053] scsi host3: ahci","ts":"2025-07-17T18:36:41.925890641Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.818037] scsi host2: ahci","ts":"2025-07-17T18:36:41.922886031Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.815040] scsi host1: ahci","ts":"2025-07-17T18:36:41.919894004Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.812050] scsi host0: ahci","ts":"2025-07-17T18:36:41.91690604Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.801589] ahci 0000:00:1f.2: flags: 64bit ncq only","ts":"2025-07-17T18:36:41.907235682Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.799348] ahci 0000:00:1f.2: 6/6 ports implemented (port mask 0x3f)","ts":"2025-07-17T18:36:41.905479883Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.796604] ahci 0000:00:1f.2: AHCI vers 0001.0000, 32 command slots, 1.5 Gbps, SATA mode","ts":"2025-07-17T18:36:41.903248114Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.793317] ACPI: \\_SB_.GSIA: Enabled at IRQ 16","ts":"2025-07-17T18:36:41.898725692Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.782397] virtio_blk virtio2: [vda] 40960000 512-byte logical blocks (21.0 GB/19.5 GiB)","ts":"2025-07-17T18:36:41.88912467Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.777673] virtio_blk virtio2: 2/0/0 default/read/poll queues","ts":"2025-07-17T18:36:41.883674096Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.776176] brd: module loaded","ts":"2025-07-17T18:36:41.881250145Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.773824] ACPI: bus type drm_connector registered","ts":"2025-07-17T18:36:41.879547998Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.772152] Linux agpgart interface v0.103","ts":"2025-07-17T18:36:41.877637163Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.767182] software IO TLB: Memory encryption is active and system is using DMA bounce buffers","ts":"2025-07-17T18:36:41.874453859Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.760063] 00:02: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A","ts":"2025-07-17T18:36:41.867141651Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.756806] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled","ts":"2025-07-17T18:36:41.863544075Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.751363] ACPI: \\_SB_.GSIE: Enabled at IRQ 20","ts":"2025-07-17T18:36:41.857402138Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.745626] ACPI: \\_SB_.GSIH: Enabled at IRQ 23","ts":"2025-07-17T18:36:41.851655136Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.739421] ACPI: \\_SB_.GSIG: Enabled at IRQ 22","ts":"2025-07-17T18:36:41.845617499Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.732612] ACPI: \\_SB_.GSIF: Enabled at IRQ 21","ts":"2025-07-17T18:36:41.838919221Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.723718] Asymmetric key parser 'x509' registered","ts":"2025-07-17T18:36:41.830358293Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.721275] Key type asymmetric registered","ts":"2025-07-17T18:36:41.827583261Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.717202] xor: automatically using best checksumming function   avx","ts":"2025-07-17T18:36:41.825115783Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.693159] fuse: init (API version 7.41)","ts":"2025-07-17T18:36:41.800117696Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.690173] Key type id_legacy registered","ts":"2025-07-17T18:36:41.797001756Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.687079] Key type id_resolver registered","ts":"2025-07-17T18:36:41.79401279Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.683135] NFS: Registering the id_resolver key type","ts":"2025-07-17T18:36:41.790886296Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.675556] squashfs: version 4.0 (2009/01/31) Phillip Lougher","ts":"2025-07-17T18:36:41.784125176Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.669998] workingset: timestamp_bits=46 max_order=20 bucket_order=0","ts":"2025-07-17T18:36:41.779187519Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.665932] Initialise system trusted keyrings","ts":"2025-07-17T18:36:41.77368773Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.659729] clocksource: Switched to clocksource tsc","ts":"2025-07-17T18:36:41.768578566Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.649495] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x1fb633008a4, max_idle_ns: 440795292230 ns","ts":"2025-07-17T18:36:41.763481661Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.644607] software IO TLB: mapped [mem 0x000000006bdcd000-0x000000007bdcd000] (256MB)","ts":"2025-07-17T18:36:41.751516207Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.642180] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)","ts":"2025-07-17T18:36:41.748532094Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.640538] PCI: CLS 0 bytes, default 64","ts":"2025-07-17T18:36:41.745915306Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.637455] pci_bus 0000:00: resource 9 [mem 0x380000000000-0x3807ffffffff window]","ts":"2025-07-17T18:36:41.744194177Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.634908] pci_bus 0000:00: resource 8 [mem 0xf0000000-0xfebfffff window]","ts":"2025-07-17T18:36:41.741341225Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.632384] pci_bus 0000:00: resource 7 [mem 0x80000000-0xdfffffff window]","ts":"2025-07-17T18:36:41.73881689Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.629839] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]","ts":"2025-07-17T18:36:41.736272308Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.627508] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]","ts":"2025-07-17T18:36:41.733709055Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.625204] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]","ts":"2025-07-17T18:36:41.731390852Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.622608] pci 0000:00:04.0: ROM [mem 0x80080000-0x800fffff pref]: assigned","ts":"2025-07-17T18:36:41.729083392Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.620202] RPC: Registered tcp NFSv4.1 backchannel transport module.","ts":"2025-07-17T18:36:41.726479149Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.618155] RPC: Registered tcp-with-tls transport module.","ts":"2025-07-17T18:36:41.724089485Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.616396] RPC: Registered tcp transport module.","ts":"2025-07-17T18:36:41.722037943Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.614622] RPC: Registered udp transport module.","ts":"2025-07-17T18:36:41.720373438Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.612385] RPC: Registered named UNIX socket transport module.","ts":"2025-07-17T18:36:41.718510225Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.609748] NET: Registered PF_UNIX/PF_LOCAL protocol family","ts":"2025-07-17T18:36:41.715787021Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.607069] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)","ts":"2025-07-17T18:36:41.713590888Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.604589] UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)","ts":"2025-07-17T18:36:41.710938068Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.602093] TCP: Hash tables configured (established 32768 bind 32768)","ts":"2025-07-17T18:36:41.708432949Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.599152] TCP bind hash table entries: 32768 (order: 8, 1048576 bytes, linear)","ts":"2025-07-17T18:36:41.705859434Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.596210] TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)","ts":"2025-07-17T18:36:41.702995004Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.593294] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)","ts":"2025-07-17T18:36:41.700069556Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.590054] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)","ts":"2025-07-17T18:36:41.697116642Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.586503] IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)","ts":"2025-07-17T18:36:41.693114173Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.584563] NET: Registered PF_INET protocol family","ts":"2025-07-17T18:36:41.690271175Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.581270] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns","ts":"2025-07-17T18:36:41.688422034Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.563836] pnp: PnP ACPI: found 5 devices","ts":"2025-07-17T18:36:41.669288966Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.560820] system 00:04: [mem 0xe0000000-0xefffffff window] has been reserved","ts":"2025-07-17T18:36:41.667398297Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.559452] pnp: PnP ACPI init","ts":"2025-07-17T18:36:41.664577952Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.557469] clocksource: Switched to clocksource tsc-early","ts":"2025-07-17T18:36:41.663220607Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.556817] vgaarb: loaded","ts":"2025-07-17T18:36:41.660987688Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.555300] PCI: Using ACPI for IRQ routing","ts":"2025-07-17T18:36:41.659178512Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.554288] Bluetooth: SCO socket layer initialized","ts":"2025-07-17T18:36:41.657413866Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.553287] Bluetooth: L2CAP socket layer initialized","ts":"2025-07-17T18:36:41.65517012Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.552288] Bluetooth: HCI socket layer initialized","ts":"2025-07-17T18:36:41.653280272Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.551287] Bluetooth: HCI device and connection manager initialized","ts":"2025-07-17T18:36:41.651460917Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.550293] NET: Registered PF_BLUETOOTH protocol family","ts":"2025-07-17T18:36:41.649054185Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.549517] Bluetooth: Core ver 2.22","ts":"2025-07-17T18:36:41.647059552Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.548385] efivars: Registered efivars operations","ts":"2025-07-17T18:36:41.644914671Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.547293] usbcore: registered new device driver usb","ts":"2025-07-17T18:36:41.642700785Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.546294] usbcore: registered new interface driver hub","ts":"2025-07-17T18:36:41.640814607Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.545301] usbcore: registered new interface driver usbfs","ts":"2025-07-17T18:36:41.638832853Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.544362] ACPI: bus type USB registered","ts":"2025-07-17T18:36:41.636767021Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.543344] SCSI subsystem initialized","ts":"2025-07-17T18:36:41.635006102Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.542287] iommu: DMA domain TLB invalidation policy: lazy mode","ts":"2025-07-17T18:36:41.633547786Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.541489] iommu: Default domain type: Translated","ts":"2025-07-17T18:36:41.631310635Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.540295] ACPI: PCI: Interrupt link GSIH configured for IRQ 23","ts":"2025-07-17T18:36:41.629306538Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.539294] ACPI: PCI: Interrupt link GSIG configured for IRQ 22","ts":"2025-07-17T18:36:41.627083383Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.538294] ACPI: PCI: Interrupt link GSIF configured for IRQ 21","ts":"2025-07-17T18:36:41.624853723Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.537294] ACPI: PCI: Interrupt link GSIE configured for IRQ 20","ts":"2025-07-17T18:36:41.622640193Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.536294] ACPI: PCI: Interrupt link GSID configured for IRQ 19","ts":"2025-07-17T18:36:41.620351585Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.535294] ACPI: PCI: Interrupt link GSIC configured for IRQ 18","ts":"2025-07-17T18:36:41.618105643Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.534295] ACPI: PCI: Interrupt link GSIB configured for IRQ 17","ts":"2025-07-17T18:36:41.61586754Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.533359] ACPI: PCI: Interrupt link GSIA configured for IRQ 16","ts":"2025-07-17T18:36:41.613641304Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.532436] ACPI: PCI: Interrupt link LNKH configured for IRQ 11","ts":"2025-07-17T18:36:41.611310637Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.531437] ACPI: PCI: Interrupt link LNKG configured for IRQ 11","ts":"2025-07-17T18:36:41.608946017Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.530437] ACPI: PCI: Interrupt link LNKF configured for IRQ 10","ts":"2025-07-17T18:36:41.606561573Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.529438] ACPI: PCI: Interrupt link LNKE configured for IRQ 10","ts":"2025-07-17T18:36:41.60406675Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.528480] ACPI: PCI: Interrupt link LNKD configured for IRQ 11","ts":"2025-07-17T18:36:41.601696265Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.527438] ACPI: PCI: Interrupt link LNKC configured for IRQ 11","ts":"2025-07-17T18:36:41.599266566Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.526444] ACPI: PCI: Interrupt link LNKB configured for IRQ 10","ts":"2025-07-17T18:36:41.596888993Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.526273] ACPI: PCI: Interrupt link LNKA configured for IRQ 10","ts":"2025-07-17T18:36:41.594468571Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.524691] pci 0000:00:1f.3: BAR 4 [io  0x6000-0x603f]","ts":"2025-07-17T18:36:41.590850763Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.522569] pci 0000:00:1f.3: [8086:2930] type 00 class 0x0c0500 conventional PCI endpoint","ts":"2025-07-17T18:36:41.586914661Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.520899] pci 0000:00:1f.2: BAR 5 [mem 0x80000000-0x80000fff]","ts":"2025-07-17T18:36:41.580810544Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.520273] pci 0000:00:1f.2: BAR 4 [io  0x6040-0x605f]","ts":"2025-07-17T18:36:41.577972589Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.518156] pci 0000:00:1f.2: [8086:2922] type 00 class 0x010601 conventional PCI endpoint","ts":"2025-07-17T18:36:41.572950519Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.516491] pci 0000:00:1f.0: quirk: [io  0x0600-0x067f] claimed by ICH6 ACPI/GPIO/TCO","ts":"2025-07-17T18:36:41.569043197Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.515273] pci 0000:00:1f.0: [8086:2918] type 00 class 0x060100 conventional PCI endpoint","ts":"2025-07-17T18:36:41.564111272Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.512704] pci 0000:00:04.0: ROM [mem 0x00000000-0x0007ffff pref]","ts":"2025-07-17T18:36:41.558238599Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.512273] pci 0000:00:04.0: BAR 4 [mem 0x38000000c000-0x38000000ffff 64bit pref]","ts":"2025-07-17T18:36:41.555905222Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.511273] pci 0000:00:04.0: BAR 1 [mem 0x80001000-0x80001fff]","ts":"2025-07-17T18:36:41.55588871Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.509463] pci 0000:00:04.0: [1af4:1041] type 00 class 0x020000 conventional PCI endpoint","ts":"2025-07-17T18:36:41.555868787Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.507273] pci 0000:00:03.0: BAR 4 [mem 0x380000008000-0x38000000bfff 64bit pref]","ts":"2025-07-17T18:36:41.555852532Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.506273] pci 0000:00:03.0: BAR 1 [mem 0x80002000-0x80002fff]","ts":"2025-07-17T18:36:41.555837531Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.505273] pci 0000:00:03.0: [1af4:1042] type 00 class 0x010000 conventional PCI endpoint","ts":"2025-07-17T18:36:41.555820782Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.503273] pci 0000:00:02.0: BAR 4 [mem 0x380000004000-0x380000007fff 64bit pref]","ts":"2025-07-17T18:36:41.555806255Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.502273] pci 0000:00:02.0: BAR 1 [mem 0x80003000-0x80003fff]","ts":"2025-07-17T18:36:41.555789428Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.500979] pci 0000:00:02.0: [1af4:1053] type 00 class 0x078000 conventional PCI endpoint","ts":"2025-07-17T18:36:41.555773246Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.497673] pci 0000:00:01.0: BAR 4 [mem 0x380000000000-0x380000003fff 64bit pref]","ts":"2025-07-17T18:36:41.555754639Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.495289] pci 0000:00:01.0: BAR 1 [mem 0x80004000-0x80004fff]","ts":"2025-07-17T18:36:41.555734301Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.493659] pci 0000:00:01.0: [1af4:1043] type 00 class 0x078000 conventional PCI endpoint","ts":"2025-07-17T18:36:41.555718679Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.491419] pci 0000:00:00.0: [8086:29c0] type 00 class 0x060000 conventional PCI endpoint","ts":"2025-07-17T18:36:41.555701068Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.490287] pci_bus 0000:00: root bus resource [bus 00-ff]","ts":"2025-07-17T18:36:41.555685814Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.489286] pci_bus 0000:00: root bus resource [mem 0x380000000000-0x3807ffffffff window]","ts":"2025-07-17T18:36:41.555668885Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.488287] pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfebfffff window]","ts":"2025-07-17T18:36:41.555652883Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.487286] pci_bus 0000:00: root bus resource [mem 0x80000000-0xdfffffff window]","ts":"2025-07-17T18:36:41.555636453Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.486286] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]","ts":"2025-07-17T18:36:41.555617352Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.485286] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]","ts":"2025-07-17T18:36:41.555600922Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.484289] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]","ts":"2025-07-17T18:36:41.555582686Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.483366] PCI host bridge to bus 0000:00","ts":"2025-07-17T18:36:41.555565091Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.482287] acpi PNP0A08:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]","ts":"2025-07-17T18:36:41.55554322Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.481292] acpi PNP0A08:00: _OSC: OS supports [ASPM ClockPM Segments MSI HPX-Type3]","ts":"2025-07-17T18:36:41.555486053Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.481094] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])","ts":"2025-07-17T18:36:41.469179054Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.478394] ACPI: Enabled 2 GPEs in block 00 to 3F","ts":"2025-07-17T18:36:41.464585916Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.477286] PCI: Using E820 reservations for host bridge windows","ts":"2025-07-17T18:36:41.462723056Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.476306] PCI: Using host bridge windows from ACPI; if necessary, use \"pci=nocrs\" and report a bug","ts":"2025-07-17T18:36:41.460539701Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.475288] ACPI: Using IOAPIC for interrupt routing","ts":"2025-07-17T18:36:41.457187761Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.475273] ACPI: PM: (supports S0 S5)","ts":"2025-07-17T18:36:41.45527365Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.474335] ACPI: Interpreter enabled","ts":"2025-07-17T18:36:41.453862437Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.472926] ACPI: 1 ACPI AML tables successfully acquired and loaded","ts":"2025-07-17T18:36:41.450903761Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.471286] ACPI: Added _OSI(Processor Aggregator Device)","ts":"2025-07-17T18:36:41.44789871Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.470287] ACPI: Added _OSI(3.0 _SCP Extensions)","ts":"2025-07-17T18:36:41.445891058Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.469288] ACPI: Added _OSI(Processor Device)","ts":"2025-07-17T18:36:41.444090785Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.468346] ACPI: Added _OSI(Module Device)","ts":"2025-07-17T18:36:41.442413668Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.467456] cryptd: max_cpu_qlen set to 1000","ts":"2025-07-17T18:36:41.440491368Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.466501] PCI: Using configuration type 1 for base access","ts":"2025-07-17T18:36:41.4383133Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.464384] cpuidle: using governor menu","ts":"2025-07-17T18:36:41.435998174Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.464366] thermal_sys: Registered thermal governor 'step_wise'","ts":"2025-07-17T18:36:41.434172945Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.457306] NET: Registered PF_NETLINK/PF_ROUTE protocol family","ts":"2025-07-17T18:36:41.412069528Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.449319] pinctrl core: initialized pinctrl subsystem","ts":"2025-07-17T18:36:41.386572468Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.446302] futex hash table entries: 512 (order: 3, 32768 bytes, linear)","ts":"2025-07-17T18:36:41.378284917Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.444328] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns","ts":"2025-07-17T18:36:41.372149339Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.429303] devtmpfs: initialized","ts":"2025-07-17T18:36:41.318751998Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.405333] Memory: 3812132K/4192304K available (12288K kernel code, 970K rwdata, 4220K rodata, 17172K init, 2224K bss, 376900K reserved, 0K cma-reserved)","ts":"2025-07-17T18:36:41.276160185Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.401290] smpboot: Total of 2 processors activated (8800.00 BogoMIPS)","ts":"2025-07-17T18:36:41.260466757Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.399428] smp: Brought up 1 node, 2 CPUs","ts":"2025-07-17T18:36:41.257981245Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.399290] .... node  #0, CPUs:      #1","ts":"2025-07-17T18:36:41.256459582Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.398303] smpboot: x86: Booting SMP configuration:","ts":"2025-07-17T18:36:41.253782855Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.386290] smpboot: Parallel CPU startup disabled by the platform","ts":"2025-07-17T18:36:41.224677142Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.385295] smp: Bringing up secondary CPUs ...","ts":"2025-07-17T18:36:41.222384904Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.376309] Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level","ts":"2025-07-17T18:36:41.197888187Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.369287] rcu: \tMax phase no-delay instances is 400.","ts":"2025-07-17T18:36:41.174068862Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.368306] rcu: Hierarchical SRCU implementation.","ts":"2025-07-17T18:36:41.172106137Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.362311] signal: max sigframe size: 1776","ts":"2025-07-17T18:36:41.156464742Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.361325] Performance Events: unsupported p6 CPU model 175 no PMU driver, software events only.","ts":"2025-07-17T18:36:41.15487323Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.338458] smpboot: CPU0: Intel 06/af (family: 0x6, model: 0xaf, stepping: 0x3)","ts":"2025-07-17T18:36:41.091619274Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.312297] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)","ts":"2025-07-17T18:36:41.00732363Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.310296] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)","ts":"2025-07-17T18:36:41.001229101Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.275276] pid_max: default: 32768 minimum: 301","ts":"2025-07-17T18:36:40.890823126Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.274291] Memory Encryption Features active: Intel TDX","ts":"2025-07-17T18:36:40.889065234Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.248916] Freeing SMP alternatives memory: 28K","ts":"2025-07-17T18:36:39.529049468Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.229275] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.","ts":"2025-07-17T18:36:39.508336601Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.228277] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256","ts":"2025-07-17T18:36:39.5023892Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.227276] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'","ts":"2025-07-17T18:36:39.498190119Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.226276] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'","ts":"2025-07-17T18:36:39.493634679Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.225311] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'","ts":"2025-07-17T18:36:39.489064208Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.224281] Speculative Store Bypass: Vulnerable","ts":"2025-07-17T18:36:39.483240579Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.223286] Spectre V2 : User space: Vulnerable","ts":"2025-07-17T18:36:39.479566162Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.222289] Spectre V1 : Vulnerable: __user pointer sanitization and usercopy barriers only; no swapgs barriers","ts":"2025-07-17T18:36:39.475604115Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.221282] process: using TDX aware idle routine","ts":"2025-07-17T18:36:39.466974606Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.220278] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0","ts":"2025-07-17T18:36:39.462550491Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.219644] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0","ts":"2025-07-17T18:36:39.456852096Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.214966] x86/cpu: User Mode Instruction Prevention (UMIP) activated","ts":"2025-07-17T18:36:39.435531178Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.212274] Calibrating delay loop (skipped), value calculated using timer frequency.. 4400.00 BogoMIPS (lpj=2200000)","ts":"2025-07-17T18:36:39.425547828Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.208738] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x1fb633008a4, max_idle_ns: 440795292230 ns","ts":"2025-07-17T18:36:39.421450189Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.206399] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1","ts":"2025-07-17T18:36:39.417520813Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.196726] kvm-guest: setup PV IPIs","ts":"2025-07-17T18:36:39.407108306Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.193735] kvm-guest: APIC: send_IPI_mask_allbutself() replaced with kvm_send_ipi_mask_allbutself()","ts":"2025-07-17T18:36:39.405892943Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.191343] kvm-guest: APIC: send_IPI_mask() replaced with kvm_send_ipi_mask()","ts":"2025-07-17T18:36:39.402884258Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.189470] APIC: Switched APIC routing to: physical x2apic","ts":"2025-07-17T18:36:39.400492242Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.182598] APIC: Switch to symmetric I/O mode setup","ts":"2025-07-17T18:36:39.393557291Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.164911] ACPI BIOS Warning (bug): Incorrect checksum in table [APIC] - 0xDE, should be 0x51 (20240827/utcksum-58)","ts":"2025-07-17T18:36:39.377502635Z"}
+  {"level":"warn","module":"runtime","msg":"[    1.156280] ACPI: Core revision 20240827","ts":"2025-07-17T18:36:39.366735276Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.481299] printk: legacy console [ttyS0] enabled","ts":"2025-07-17T18:36:39.365426531Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.481175] Console: colour dummy device 80x25","ts":"2025-07-17T18:36:39.363893954Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.477436] rcu: srcu_init: Setting srcu_struct sizes based on contention.","ts":"2025-07-17T18:36:39.362418691Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.453898] NR_IRQS: 4352, nr_irqs: 440, preallocated irqs: 16","ts":"2025-07-17T18:36:39.360197051Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.453894] RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.","ts":"2025-07-17T18:36:39.358264418Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.453891] RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.","ts":"2025-07-17T18:36:39.35530835Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.450575] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2","ts":"2025-07-17T18:36:39.352530934Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.450574] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.","ts":"2025-07-17T18:36:39.350268234Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.450572] \tTracing variant of Tasks RCU enabled.","ts":"2025-07-17T18:36:39.347798118Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.450571] \tTrampoline variant of Tasks RCU enabled.","ts":"2025-07-17T18:36:39.34625927Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.450569] rcu: \tRCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=2.","ts":"2025-07-17T18:36:39.344634627Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.450567] rcu: Preemptible hierarchical RCU implementation.","ts":"2025-07-17T18:36:39.342496311Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.387569] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1","ts":"2025-07-17T18:36:39.340504818Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.074864] software IO TLB: SWIOTLB bounce buffer size roundup to 256MB","ts":"2025-07-17T18:36:39.338430486Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.074863] software IO TLB: area num 2.","ts":"2025-07-17T18:36:39.336162302Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.074859] mem auto-init: stack:all(zero), heap alloc:off, heap free:off","ts":"2025-07-17T18:36:39.334895214Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.074857] Built 1 zonelists, mobility grouping on.  Total pages: 1048076","ts":"2025-07-17T18:36:39.331395731Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.074816] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)","ts":"2025-07-17T18:36:39.325053885Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.073010] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)","ts":"2025-07-17T18:36:39.317740171Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.069482] random: crng init done","ts":"2025-07-17T18:36:39.309998035Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.069466] Unknown kernel command line parameters \"ROFL_APP_ID=rofl1qrxa72plnyg6vj0nrggnct76wn6xf8e9hvh20784 ROFL_CONSENSUS_TRUST_ROOT=pGRoYXNoeEAwMTMwMmIxNWVhNzk2YmUwZTRkYjNjOTU5YmZmNjQwNThmN2JiZmUwZWUyNWY2YWNiYTYyMzk3YzFiNjQ3N2JhZmhlaWdodBoBpDCxanJ1bnRpbWVfaWRYIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKbR4+v2Df9sbWNoYWluX2NvbnRleHR4QDBiOTFiOGU0ZTQ0YjIwMDNhN2M1ZTIzZGRhZGI1ZTE0ZWY1MzQ1YzBlYmNiM2RkY2FlMDdmYTJmMjQ0Y2FiNzY=\", will be passed to user space.","ts":"2025-07-17T18:36:39.306196866Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.069366] Kernel command line: console=ttyS0 oasis.stage2.roothash=2d1bfbd096a7d71461a8b2ef5b96df81e630e881f987e6a02bbce3055c68f073 oasis.stage2.hash_offset=69402624 oasis.stage2.storage_mode=custom oasis.stage2.storage_size=36765696 oasis.stage2.storage_offset=4194304 ROFL_APP_ID=rofl1qrxa72plnyg6vj0nrggnct76wn6xf8e9hvh20784 ROFL_CONSENSUS_TRUST_ROOT=pGRoYXNoeEAwMTMwMmIxNWVhNzk2YmUwZTRkYjNjOTU5YmZmNjQwNThmN2JiZmUwZWUyNWY2YWNiYTYyMzk3YzFiNjQ3N2JhZmhlaWdodBoBpDCxanJ1bnRpbWVfaWRYIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKbR4+v2Df9sbWNoYWluX2NvbnRleHR4QDBiOTFiOGU0ZTQ0YjIwMDNhN2M1ZTIzZGRhZGI1ZTE0ZWY1MzQ1YzBlYmNiM2RkY2FlMDdmYTJmMjQ0Y2FiNzY=","ts":"2025-07-17T18:36:39.260110622Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.069326] percpu: Embedded 49 pages/cpu s160088 r8192 d32424 u1048576","ts":"2025-07-17T18:36:39.199089436Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067489] setup_percpu: NR_CPUS:64 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1","ts":"2025-07-17T18:36:39.191143226Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067481] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns","ts":"2025-07-17T18:36:39.181898752Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067478] Booting paravirtualized kernel on KVM","ts":"2025-07-17T18:36:39.169335631Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067476] [mem 0x80000000-0xdfffffff] available for PCI devices","ts":"2025-07-17T18:36:39.163542804Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067351] CPU topo: Allowing 2 present CPUs plus 0 hotplug CPUs","ts":"2025-07-17T18:36:39.155818171Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067351] CPU topo: Num. threads per package:   2","ts":"2025-07-17T18:36:39.14793761Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067350] CPU topo: Num. cores per package:     2","ts":"2025-07-17T18:36:39.141861725Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067349] CPU topo: Max. threads per core:   1","ts":"2025-07-17T18:36:39.135987457Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067343] CPU topo: Max. dies per package:   1","ts":"2025-07-17T18:36:39.130433346Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067343] CPU topo: Max. logical dies:       1","ts":"2025-07-17T18:36:39.124753952Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067342] CPU topo: Max. logical packages:   1","ts":"2025-07-17T18:36:39.119023609Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067335] TSC deadline timer available","ts":"2025-07-17T18:36:39.11306544Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067333] ACPI: Using ACPI (MADT) for SMP configuration information","ts":"2025-07-17T18:36:39.108073774Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067327] APIC: wakeup_secondary_cpu_64() replaced with acpi_wakeup_cpu()","ts":"2025-07-17T18:36:39.10046199Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067321] ACPI: INT_SRC_OVR (bus 0 bus_irq 15 global_irq 15 high edge)","ts":"2025-07-17T18:36:39.091882613Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067320] ACPI: INT_SRC_OVR (bus 0 bus_irq 14 global_irq 14 high edge)","ts":"2025-07-17T18:36:39.083973567Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067319] ACPI: INT_SRC_OVR (bus 0 bus_irq 13 global_irq 13 high edge)","ts":"2025-07-17T18:36:39.076879684Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067318] ACPI: INT_SRC_OVR (bus 0 bus_irq 12 global_irq 12 high edge)","ts":"2025-07-17T18:36:39.069455976Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067316] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high edge)","ts":"2025-07-17T18:36:39.061933416Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067315] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high edge)","ts":"2025-07-17T18:36:39.053874376Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067314] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high edge)","ts":"2025-07-17T18:36:39.045329843Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067312] ACPI: INT_SRC_OVR (bus 0 bus_irq 8 global_irq 8 high edge)","ts":"2025-07-17T18:36:39.03722282Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067311] ACPI: INT_SRC_OVR (bus 0 bus_irq 7 global_irq 7 high edge)","ts":"2025-07-17T18:36:39.029268667Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067310] ACPI: INT_SRC_OVR (bus 0 bus_irq 6 global_irq 6 high edge)","ts":"2025-07-17T18:36:39.021240719Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067309] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high edge)","ts":"2025-07-17T18:36:39.013344943Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067308] ACPI: INT_SRC_OVR (bus 0 bus_irq 4 global_irq 4 high edge)","ts":"2025-07-17T18:36:39.005389421Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067306] ACPI: INT_SRC_OVR (bus 0 bus_irq 3 global_irq 3 high edge)","ts":"2025-07-17T18:36:38.999541619Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067305] ACPI: INT_SRC_OVR (bus 0 bus_irq 2 global_irq 2 high edge)","ts":"2025-07-17T18:36:38.997377211Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067303] ACPI: INT_SRC_OVR (bus 0 bus_irq 1 global_irq 1 high edge)","ts":"2025-07-17T18:36:38.995252823Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067300] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 high edge)","ts":"2025-07-17T18:36:38.993106239Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067296] IOAPIC[0]: apic_id 0, version 32, address 0xfec00000, GSI 0-23","ts":"2025-07-17T18:36:38.990999341Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067115] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])","ts":"2025-07-17T18:36:38.988778612Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.067070] ACPI: PM-Timer IO Port: 0x608","ts":"2025-07-17T18:36:38.986845886Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.065533] On node 0, zone Normal: 132 pages in unavailable ranges","ts":"2025-07-17T18:36:38.985558296Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.060135] On node 0, zone DMA32: 11 pages in unavailable ranges","ts":"2025-07-17T18:36:38.983392036Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.060073] On node 0, zone DMA32: 88 pages in unavailable ranges","ts":"2025-07-17T18:36:38.981483637Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.060069] On node 0, zone DMA32: 168 pages in unavailable ranges","ts":"2025-07-17T18:36:38.97950162Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.060022] On node 0, zone DMA32: 1 pages in unavailable ranges","ts":"2025-07-17T18:36:38.977476201Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.060019] On node 0, zone DMA32: 2 pages in unavailable ranges","ts":"2025-07-17T18:36:38.975434223Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054754] On node 0, zone DMA: 1 pages in unavailable ranges","ts":"2025-07-17T18:36:38.973489061Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054731] On node 0, zone DMA: 96 pages in unavailable ranges","ts":"2025-07-17T18:36:38.9716109Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054707] On node 0, zone DMA: 1 pages in unavailable ranges","ts":"2025-07-17T18:36:38.969706543Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054701] Initmem setup node 0 [mem 0x0000000000001000-0x000000017fffffff]","ts":"2025-07-17T18:36:38.96780196Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054699]   node   0: [mem 0x0000000100000000-0x000000017fffffff]","ts":"2025-07-17T18:36:38.965564112Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054698]   node   0: [mem 0x000000007e81f000-0x000000007ff7bfff]","ts":"2025-07-17T18:36:38.963536034Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054697]   node   0: [mem 0x000000007e813000-0x000000007e813fff]","ts":"2025-07-17T18:36:38.961489438Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054696]   node   0: [mem 0x000000007d73b000-0x000000007e7bafff]","ts":"2025-07-17T18:36:38.9594502Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054695]   node   0: [mem 0x000000007d691000-0x000000007d692fff]","ts":"2025-07-17T18:36:38.957421385Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054694]   node   0: [mem 0x000000007d674000-0x000000007d68ffff]","ts":"2025-07-17T18:36:38.955323347Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054693]   node   0: [mem 0x000000000080d000-0x000000007d671fff]","ts":"2025-07-17T18:36:38.953265717Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054692]   node   0: [mem 0x0000000000100000-0x000000000080bfff]","ts":"2025-07-17T18:36:38.951198997Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054690]   node   0: [mem 0x0000000000001000-0x000000000009ffff]","ts":"2025-07-17T18:36:38.949196848Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054690] Early memory node ranges","ts":"2025-07-17T18:36:38.947083769Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054689] Movable zone start for each node","ts":"2025-07-17T18:36:38.945911166Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054688]   Normal   [mem 0x0000000100000000-0x000000017fffffff]","ts":"2025-07-17T18:36:38.944453748Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054686]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]","ts":"2025-07-17T18:36:38.942451652Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054683]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]","ts":"2025-07-17T18:36:38.940430004Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.054682] Zone ranges:","ts":"2025-07-17T18:36:38.93844762Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002499] APIC: Switched APIC routing to: cluster x2apic","ts":"2025-07-17T18:36:38.937593533Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002421] ACPI: Reserving APIC table memory at [mem 0x7d693000-0x7d6930fd]","ts":"2025-07-17T18:36:38.93580391Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002420] ACPI: Reserving WAET table memory at [mem 0x7d672000-0x7d672027]","ts":"2025-07-17T18:36:38.933496163Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002419] ACPI: Reserving MCFG table memory at [mem 0x7d673000-0x7d67303b]","ts":"2025-07-17T18:36:38.931242454Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002418] ACPI: Reserving CCEL table memory at [mem 0x7e818000-0x7e818037]","ts":"2025-07-17T18:36:38.928876956Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002417] ACPI: Reserving FACS table memory at [mem 0x7e81d000-0x7e81d03f]","ts":"2025-07-17T18:36:38.926589491Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002416] ACPI: Reserving DSDT table memory at [mem 0x7e815000-0x7e81704b]","ts":"2025-07-17T18:36:38.924279517Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002415] ACPI: Reserving FACP table memory at [mem 0x7e814000-0x7e8140f3]","ts":"2025-07-17T18:36:38.921966523Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002413] ACPI: APIC 0x000000007D693000 0000FE (v03 BOCHS  BXPC     00000001 BXPC 00000001)","ts":"2025-07-17T18:36:38.919649679Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002411] ACPI: WAET 0x000000007D672000 000028 (v01 BOCHS  BXPC     00000001 BXPC 00000001)","ts":"2025-07-17T18:36:38.91690502Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002409] ACPI: MCFG 0x000000007D673000 00003C (v01 BOCHS  BXPC     00000001 BXPC 00000001)","ts":"2025-07-17T18:36:38.914136607Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002407] ACPI: CCEL 0x000000007E818000 000038 (v01 INTEL  EDK2     00000002      01000013)","ts":"2025-07-17T18:36:38.911439182Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002404] ACPI: FACS 0x000000007E81D000 000040","ts":"2025-07-17T18:36:38.908685936Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002402] ACPI: DSDT 0x000000007E815000 00204C (v01 BOCHS  BXPC     00000001 BXPC 00000001)","ts":"2025-07-17T18:36:38.907104873Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002398] ACPI: FACP 0x000000007E814000 0000F4 (v03 BOCHS  BXPC     00000001 BXPC 00000001)","ts":"2025-07-17T18:36:38.904340357Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002393] ACPI: XSDT 0x000000007E8190E8 00004C (v01 BOCHS  BXPC     00000001      01000013)","ts":"2025-07-17T18:36:38.901472746Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002390] ACPI: RSDP 0x000000007E81A014 000024 (v02 BOCHS )","ts":"2025-07-17T18:36:38.898740199Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002386] ACPI: Early table checksum verification disabled","ts":"2025-07-17T18:36:38.896840576Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.002383] Secure boot disabled","ts":"2025-07-17T18:36:38.894996021Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000077] Using GB pages for direct mapping","ts":"2025-07-17T18:36:38.893917683Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000070] software IO TLB: SWIOTLB bounce buffer size adjusted to 245MB","ts":"2025-07-17T18:36:38.892506433Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000064] last_pfn = 0x7ff7c max_arch_pfn = 0x400000000","ts":"2025-07-17T18:36:38.89023885Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000039] x2apic: enabled by BIOS, switching to x2apic ops","ts":"2025-07-17T18:36:38.888459591Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000025] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT","ts":"2025-07-17T18:36:38.886606987Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000024] MTRRs set to read-only","ts":"2025-07-17T18:36:38.884339113Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000022] MTRR map: 0 entries (0 fixed + 0 variable; max 0), built from 0 variable MTRRs","ts":"2025-07-17T18:36:38.883152836Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000020] last_pfn = 0x180000 max_arch_pfn = 0x400000000","ts":"2025-07-17T18:36:38.880348429Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] tsc: Detected 2200.000 MHz processor","ts":"2025-07-17T18:36:38.878407663Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] Hypervisor detected: KVM","ts":"2025-07-17T18:36:38.876748556Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] DMI: Memory slots populated: 1/1","ts":"2025-07-17T18:36:38.875428903Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] DMI: QEMU Standard PC (Q35 + ICH9, 2009), BIOS unknown 02/02/2022","ts":"2025-07-17T18:36:38.873720523Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] SMBIOS 3.0.0 present.","ts":"2025-07-17T18:36:38.87111649Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] [Firmware Bug]: Failed to parse event in TPM Final Events Log","ts":"2025-07-17T18:36:38.869836851Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] efi: CCFinalLog=0x7d699000 ACPI=0x7e81a000 ACPI 2.0=0x7e81a014 SMBIOS=0x7e7eb000 SMBIOS 3.0=0x7d697000 MEMATTR=0x7d79a698 TPMEventLog=0x7e813018 Unaccepted=0x7e813e98","ts":"2025-07-17T18:36:38.867236974Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] efi: EFI v2.7 by EDK II","ts":"2025-07-17T18:36:38.860917949Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] APIC: Static calls initialized","ts":"2025-07-17T18:36:38.859467704Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] NX (Execute Disable) protection: active","ts":"2025-07-17T18:36:38.857706852Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000017fffffff] usable","ts":"2025-07-17T18:36:38.855626899Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x00000000e0000000-0x00000000efffffff] reserved","ts":"2025-07-17T18:36:38.852792028Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007ff7c000-0x000000007fffffff] reserved","ts":"2025-07-17T18:36:38.849714508Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007e81f000-0x000000007ff7bfff] usable","ts":"2025-07-17T18:36:38.846454535Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007e81b000-0x000000007e81efff] ACPI NVS","ts":"2025-07-17T18:36:38.843277064Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007e813000-0x000000007e81afff] ACPI data","ts":"2025-07-17T18:36:38.839853141Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007e7bb000-0x000000007e812fff] reserved","ts":"2025-07-17T18:36:38.836392895Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007d73b000-0x000000007e7bafff] usable","ts":"2025-07-17T18:36:38.832940556Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007d6b1000-0x000000007d73afff] reserved","ts":"2025-07-17T18:36:38.829421771Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007d699000-0x000000007d6b0fff] ACPI NVS","ts":"2025-07-17T18:36:38.825683088Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007d694000-0x000000007d698fff] reserved","ts":"2025-07-17T18:36:38.821823513Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007d693000-0x000000007d693fff] ACPI data","ts":"2025-07-17T18:36:38.817759453Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007d691000-0x000000007d692fff] usable","ts":"2025-07-17T18:36:38.8135021Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007d690000-0x000000007d690fff] ACPI data","ts":"2025-07-17T18:36:38.809349995Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007d674000-0x000000007d68ffff] usable","ts":"2025-07-17T18:36:38.804898015Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000007d672000-0x000000007d673fff] ACPI data","ts":"2025-07-17T18:36:38.800379198Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000000080d000-0x000000007d671fff] usable","ts":"2025-07-17T18:36:38.795617799Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x000000000080c000-0x000000000080cfff] ACPI NVS","ts":"2025-07-17T18:36:38.790554115Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000080bfff] usable","ts":"2025-07-17T18:36:38.785465561Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] BIOS-provided physical RAM map:","ts":"2025-07-17T18:36:38.780020401Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] x86/split lock detection: #DB: warning on user-space bus_locks","ts":"2025-07-17T18:36:38.776451208Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] Command line: console=ttyS0 oasis.stage2.roothash=2d1bfbd096a7d71461a8b2ef5b96df81e630e881f987e6a02bbce3055c68f073 oasis.stage2.hash_offset=69402624 oasis.stage2.storage_mode=custom oasis.stage2.storage_size=36765696 oasis.stage2.storage_offset=4194304 ROFL_APP_ID=rofl1qrxa72plnyg6vj0nrggnct76wn6xf8e9hvh20784 ROFL_CONSENSUS_TRUST_ROOT=pGRoYXNoeEAwMTMwMmIxNWVhNzk2YmUwZTRkYjNjOTU5YmZmNjQwNThmN2JiZmUwZWUyNWY2YWNiYTYyMzk3YzFiNjQ3N2JhZmhlaWdodBoBpDCxanJ1bnRpbWVfaWRYIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKbR4+v2Df9sbWNoYWluX2NvbnRleHR4QDBiOTFiOGU0ZTQ0YjIwMDNhN2M1ZTIzZGRhZGI1ZTE0ZWY1MzQ1YzBlYmNiM2RkY2FlMDdmYTJmMjQ0Y2FiNzY=","ts":"2025-07-17T18:36:38.770553591Z"}
+  {"level":"warn","module":"runtime","msg":"[    0.000000] Linux version 6.12.27-yocto-tiny (oe-user@oe-host) (x86_64-poky-linux-gcc (GCC) 13.3.0, GNU ld (GNU Binutils) 2.42.0.20240716) #1 SMP PREEMPT Tue May  6 14:20:34 UTC 2025","ts":"2025-07-17T18:36:38.709882902Z"}
+  {"level":"warn","module":"runtime","msg":"\u001b[2J\u001b[01;01H\u001b[=3h\u001b[2J\u001b[01;01H[    0.000000] tdx: Guest detected","ts":"2025-07-17T18:36:38.691734028Z"}
