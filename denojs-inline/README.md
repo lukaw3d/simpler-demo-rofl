@@ -7,7 +7,7 @@ compose.yaml > command > deno posts a message to 0x5d683b980615A7A60B3cFf3DFC338
 ROFL app runs.
 
 https://explorer.oasis.io/testnet/sapphire/address/0x5d683b980615A7A60B3cFf3DFC338A9985278fF3
-is Echo.sol - it allows anyone to post a message. So you don't need to deploy+verify it yourself.
+is Echo.sol - this contract allows anyone to post a message. So you don't need to deploy+verify it yourself.
 
 Do:
 ```sh
@@ -31,7 +31,7 @@ oasis rofl remove
 ```console
 $ oasis rofl create --network testnet
 Unlock your account.
-? Passphrase: 
+? Passphrase:
 You are about to sign the following transaction:
 Format: plain
 Method: rofl.Create
@@ -94,7 +94,7 @@ Run `oasis rofl update` to update your ROFL app's on-chain configuration.
 
 $ oasis rofl update
 Unlock your account.
-? Passphrase: 
+? Passphrase:
 You are about to sign the following transaction:
 Format: plain
 Method: rofl.Update
@@ -180,7 +180,7 @@ Downloading rofl-container runtime artifact...
 Downloading compose.yaml artifact...
   URI: compose.yaml
 Validating compose file...
-WARN[0000] The "MESSAGE" variable is not set. Defaulting to a blank string. 
+WARN[0000] The "MESSAGE" variable is not set. Defaulting to a blank string.
 Preparing stage 2 root filesystem...
 Unpacking template...
 Adding runtime as init...
@@ -200,7 +200,7 @@ Error: Local enclave identities DIFFER from on-chain enclave identities! Run `oa
 
 $ oasis rofl update
 Unlock your account.
-? Passphrase: 
+? Passphrase:
 You are about to sign the following transaction:
 Format: plain
 Method: rofl.Update
@@ -264,7 +264,7 @@ Pushing ROFL app to OCI repository 'rofl.sh/b75a5740-63e9-4425-9ae7-521006eb27e4
 No pre-existing machine configured, creating a new one...
 Taking offer: playground_short [0000000000000003]
 Unlock your account.
-? Passphrase: 
+? Passphrase:
 You are about to sign the following transaction:
 Format: plain
 Method: roflmarket.InstanceCreate
@@ -309,7 +309,7 @@ Pushing ROFL app to OCI repository 'rofl.sh/b75a5740-63e9-4425-9ae7-521006eb27e4
 No pre-existing machine configured, creating a new one...
 Taking offer: playground_short [0000000000000003]
 Unlock your account.
-? Passphrase: 
+? Passphrase:
 You are about to sign the following transaction:
 Format: plain
 Method: roflmarket.InstanceCreate
@@ -352,7 +352,7 @@ Use `oasis rofl machine show` to see status.
 
 $ oasis rofl remove
 Unlock your account.
-? Passphrase: 
+? Passphrase:
 You are about to sign the following transaction:
 Format: plain
 Method: rofl.Remove
