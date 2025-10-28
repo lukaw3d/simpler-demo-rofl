@@ -10,6 +10,11 @@ services:
       const MESSAGE = Deno.env.get('MESSAGE') ?? 'No message found'
       const CONTRACT_ADDRESS = Deno.env.get('CONTRACT_ADDRESS')
 
+      // Locally: docker compose up, open http://localhost:8000/abcd
+      Deno.serve({ port: 8000 }, (req) => {
+        return new Response('Hello, World! ' + req.url);
+      });
+
       const calldata = encodeFunctionData({
         abi: parseAbi(['function emitMessage(string memory message) public']),
         functionName: 'emitMessage',
@@ -39,6 +44,8 @@ services:
       EOF
       "
     platform: linux/amd64
+    ports:
+      - "8000:8000"
     environment:
       # Address of the Echo contract deployed on Sapphire.
       # https://explorer.oasis.io/testnet/sapphire/address/0x5d683b980615A7A60B3cFf3DFC338A9985278fF3
