@@ -16,7 +16,7 @@ services:
         args: [MESSAGE]
       })
 
-      console.log({calldata})
+      console.log({calldata}) // Visible in machine logs, unencrypted
 
       // Submit it to the Sapphire contract Echo.sol on testnet
       await fetch('http://localhost/rofl/v1/tx/sign-submit', {
