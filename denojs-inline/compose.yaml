@@ -10,35 +10,38 @@ services:
       const MESSAGE = Deno.env.get('MESSAGE') ?? 'No message found'
       const CONTRACT_ADDRESS = Deno.env.get('CONTRACT_ADDRESS')
 
-      // Locally: docker compose up, open http://localhost:8000/abcd
-      Deno.serve({ port: 8000 }, (req) => {
+      // Locally: docker compose up, open http://localhost:8000/abcd but can't submit tx
+      Deno.serve({ port: 8000 }, async (req) => {
+        try {
+          const calldata = encodeFunctionData({
+            abi: parseAbi(['function emitMessage(string memory message) public']),
+            functionName: 'emitMessage',
+            args: [MESSAGE + '' + req.url]
+          })
+
+          console.log({calldata}) // Visible in machine logs, unencrypted
+
+          // Submit it to the Sapphire contract Echo.sol on testnet
+          await fetch('http://localhost/rofl/v1/tx/sign-submit', {
+            method: 'POST',
+            body: JSON.stringify({
+              'encrypt': true,
+              'tx': {
+                'kind': 'eth',
+                'data': {
+                  'gas_limit': 200000,
+                  'to': CONTRACT_ADDRESS.replace('0x', ''),
+                  'value': 0,
+                  'data': calldata.replace('0x', '')
+                }
+              }
+            }),
+            client: Deno.createHttpClient({ proxy: { transport: 'unix', path: '/run/rofl-appd.sock' } }),
+          });
+        } catch (err) {
+          return new Response('Failed to send a tx. ' + req.url);
+        }
         return new Response('Hello, World! ' + req.url);
-      });
-
-      const calldata = encodeFunctionData({
-        abi: parseAbi(['function emitMessage(string memory message) public']),
-        functionName: 'emitMessage',
-        args: [MESSAGE]
-      })
-
-      console.log({calldata}) // Visible in machine logs, unencrypted
-
-      // Submit it to the Sapphire contract Echo.sol on testnet
-      await fetch('http://localhost/rofl/v1/tx/sign-submit', {
-        method: 'POST',
-        body: JSON.stringify({
-          'encrypt': true,
-          'tx': {
-            'kind': 'eth',
-            'data': {
-              'gas_limit': 200000,
-              'to': CONTRACT_ADDRESS.replace('0x', ''),
-              'value': 0,
-              'data': calldata.replace('0x', '')
-            }
-          }
-        }),
-        client: Deno.createHttpClient({ proxy: { transport: 'unix', path: '/run/rofl-appd.sock' } }),
       });
 
       EOF
