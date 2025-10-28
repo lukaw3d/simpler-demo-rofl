@@ -30,7 +30,7 @@ oasis rofl remove
 ```
 
 <details>
-<summary>Output</summary>
+<summary>Output (click to expand)</summary>
 
 ```console
 $ [+981.17s] $ docker compose up
