@@ -3,7 +3,7 @@
 This is a demo ROFL app that runs in TDX using Podman containers defined in a
 `compose.yaml` file.
 
-compose.yaml > command > deno posts onchain message to 0x5d683b980615A7A60B3cFf3DFC338A9985278fF3 when
+compose.yaml > command > nodejs posts onchain message to 0x5d683b980615A7A60B3cFf3DFC338A9985278fF3 when
 ROFL app runs.
 
 https://explorer.oasis.io/testnet/sapphire/address/0x5d683b980615A7A60B3cFf3DFC338A9985278fF3

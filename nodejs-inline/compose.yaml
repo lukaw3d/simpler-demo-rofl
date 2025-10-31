@@ -1,43 +1,51 @@
 services:
   echo:
-    image: docker.io/denoland/deno:alpine
-    command: |
-      sh -c "deno run --allow-all - <<'EOF'
+    image: docker.io/library/node:alpine
+    command:
+      - node
+      - -e
+      - |
+        const { execSync } = await import('child_process')
+        execSync('npm init -y && yarn add undici viem')
 
-      import { encodeFunctionData, parseAbi } from 'npm:viem'
 
-      // MESSAGE comes from: rofl.yaml secrets -> compose.yaml environment -> podman/docker
-      const MESSAGE = Deno.env.get('MESSAGE') ?? 'No message found'
-      const CONTRACT_ADDRESS = Deno.env.get('CONTRACT_ADDRESS')
+        const { Agent, fetch } = await import('undici')
+        const { encodeFunctionData, parseAbi } = await import('viem')
 
-      const calldata = encodeFunctionData({
-        abi: parseAbi(['function emitMessage(string memory message) public']),
-        functionName: 'emitMessage',
-        args: [MESSAGE]
-      })
+        // MESSAGE comes from: rofl.yaml secrets -> compose.yaml environment -> podman/docker
+        const MESSAGE = process.env.MESSAGE ?? 'No message found'
+        const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS
 
-      console.log({calldata}) // Visible in machine logs, unencrypted
+        const calldata = encodeFunctionData({
+          abi: parseAbi(['function emitMessage(string memory message) public']),
+          functionName: 'emitMessage',
+          args: [MESSAGE]
+        })
 
-      // Submit it to the Sapphire contract Echo.sol on testnet
-      await fetch('http://localhost/rofl/v1/tx/sign-submit', {
-        method: 'POST',
-        body: JSON.stringify({
-          'encrypt': true,
-          'tx': {
-            'kind': 'eth',
-            'data': {
-              'gas_limit': 200000,
-              'to': CONTRACT_ADDRESS.replace('0x', ''),
-              'value': 0,
-              'data': calldata.replace('0x', '')
-            }
-          }
-        }),
-        client: Deno.createHttpClient({ proxy: { transport: 'unix', path: '/run/rofl-appd.sock' } }),
-      });
+        console.log({calldata}) // Visible in machine logs, unencrypted
 
-      EOF
-      "
+        const uds = new Agent({ connect: { socketPath: '/run/rofl-appd.sock' } })
+        // Submit it to the Sapphire contract Echo.sol on testnet
+        try {
+          await fetch('http://localhost/rofl/v1/tx/sign-submit', {
+            method: 'POST',
+            body: JSON.stringify({
+              'encrypt': true,
+              'tx': {
+                'kind': 'eth',
+                'data': {
+                  'gas_limit': 200000,
+                  'to': CONTRACT_ADDRESS.replace('0x', ''),
+                  'value': 0,
+                  'data': calldata.replace('0x', '')
+                }
+              }
+            }),
+            dispatcher: uds,
+          });
+        } finally {
+          await uds.close()
+        }
     platform: linux/amd64
     environment:
       # Address of the Echo contract deployed on Sapphire.
